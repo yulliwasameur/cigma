@@ -1,0 +1,8 @@
+attack,submitted,accepted
+borrowed_evidence_from_other_edge,284,0
+direct_with_fake_rule,300,0
+fabricated_evidence_id,300,0
+path_without_rule,300,0
+ungrounded_new_triple,295,0
+unknown_node,300,0
+valid_direct_with_injected_rationale,300,300

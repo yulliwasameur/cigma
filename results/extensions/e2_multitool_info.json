@@ -1,0 +1,79 @@
+{
+  "family": "cbom",
+  "injected": {
+    "entities": [
+      "ent-cbom-fake-fake_comp~tool_b",
+      "ent-cbom-fake-fake_comp~tool_c"
+    ],
+    "relations": [
+      "rel-cbom-fake-svc_uses_fake~tool_b",
+      "rel-cbom-fake-fake_uses_alg~tool_b",
+      "rel-cbom-fake-fake_depends~tool_b",
+      "rel-cbom-fake-svc_uses_fake~tool_c",
+      "rel-cbom-fake-fake_uses_alg~tool_c",
+      "rel-cbom-fake-fake_depends~tool_c"
+    ]
+  },
+  "kept_fraction_tool_b": 0.6,
+  "learned_with_copy": {
+    "converged": true,
+    "dependent_pairs": [
+      [
+        "cbom:tool_b",
+        "cbom:tool_c",
+        1.0
+      ]
+    ],
+    "item_counts": {
+      "cbom:tool_a": 14,
+      "cbom:tool_b": 12,
+      "cbom:tool_c": 12,
+      "cicd": 5,
+      "cmdb": 18,
+      "ot": 5,
+      "pki": 15,
+      "tls": 15
+    },
+    "iterations": 15,
+    "reliabilities": {
+      "cbom:tool_a": 0.75573,
+      "cbom:tool_b": 0.691152,
+      "cbom:tool_c": 0.691152,
+      "cicd": 0.704856,
+      "cmdb": 0.611081,
+      "ot": 0.61024,
+      "pki": 0.607438,
+      "tls": 0.609454
+    }
+  },
+  "learned_without_copy": {
+    "converged": true,
+    "dependent_pairs": [],
+    "item_counts": {
+      "cbom:tool_a": 14,
+      "cbom:tool_b": 12,
+      "cbom:tool_c": 12,
+      "cicd": 5,
+      "cmdb": 18,
+      "ot": 5,
+      "pki": 15,
+      "tls": 15
+    },
+    "iterations": 15,
+    "reliabilities": {
+      "cbom:tool_a": 0.792034,
+      "cbom:tool_b": 0.867268,
+      "cbom:tool_c": 0.867268,
+      "cicd": 0.70911,
+      "cmdb": 0.61457,
+      "ot": 0.611093,
+      "pki": 0.61111,
+      "tls": 0.612195
+    }
+  },
+  "tools": [
+    "tool_a",
+    "tool_b",
+    "tool_c"
+  ]
+}

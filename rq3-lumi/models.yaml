@@ -1,0 +1,18 @@
+# RQ5 — modèles ouverts servis par vLLM sur LUMI-G (ROCm), conteneur LAIFS multitorch 20261028 + venv PROVGUARD.
+# Llama 3.x et Mistral (accès restreint sur Hugging Face) écartés : pas de jeton HF sur LUMI au 22/11/2026.
+# La révision exacte (hash du snapshot HF) est relevée par le job dans meta.json.
+models:
+  - { id: Qwen/Qwen2.5-7B-Instruct,              gcd: 1, tp: 1 }
+  - { id: ibm-granite/granite-3.3-8b-instruct,   gcd: 1, tp: 1 }
+  - { id: allenai/OLMo-2-1124-13B-Instruct,      gcd: 1, tp: 1 }
+  - { id: microsoft/phi-4,                       gcd: 1, tp: 1 }
+  - { id: Qwen/Qwen2.5-32B-Instruct,             gcd: 2, tp: 2 }
+  - { id: Qwen/Qwen2.5-72B-Instruct,             gcd: 4, tp: 4 }
+design:
+  calls_per_condition: 30
+  temperatures: [0.0, 0.7]
+  inputs: [cigma-lab-complete, cigma-lab-no-path, cigma-lab-injected]
+  seed_base: 20261122
+budget:
+  allocation: EHPC-BEN-2026B11-194 (project_465003715)
+  cap_node_hours: 40

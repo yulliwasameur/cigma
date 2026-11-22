@@ -1,0 +1,154 @@
+{
+  "config_digest": "a2aded9e25e385c6ebf81fb864b98e3c0cd36cf41300e9833d01da4dd523e15c",
+  "edges": [
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-tls-95e990b69b16a0ed"
+      ],
+      "object": "algorithm:a45686944b6dcc81",
+      "predicate": "USES",
+      "rules": [],
+      "subject": "certificate:56d9cf99b85f9beb",
+      "support": 0.9223681599999999
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-tls-cba995dc5bd167ae"
+      ],
+      "object": "certificate:56d9cf99b85f9beb",
+      "predicate": "PRESENTS",
+      "rules": [],
+      "subject": "endpoint:1622d876134202c9",
+      "support": 0.9390203105151401
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cmdb-830342e3eaa8cb80"
+      ],
+      "object": "endpoint:1622d876134202c9",
+      "predicate": "HOSTS",
+      "rules": [],
+      "subject": "service:9b70115890fe5c56",
+      "support": 0.8286675254240443
+    },
+    {
+      "derived": true,
+      "evidence_ids": [
+        "rel-cmdb-830342e3eaa8cb80",
+        "rel-tls-95e990b69b16a0ed",
+        "rel-tls-cba995dc5bd167ae"
+      ],
+      "object": "algorithm:a45686944b6dcc81",
+      "predicate": "USES",
+      "rules": [
+        "HOSTS_o_PRESENTS_o_USES"
+      ],
+      "subject": "service:9b70115890fe5c56",
+      "support": 0.7013841935189111
+    }
+  ],
+  "method": "cigma",
+  "nodes": [
+    {
+      "attributes": {},
+      "entity_type": "algorithm",
+      "identifiers": {
+        "algorithm_id": [
+          "RSA-2048"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "algorithm:a45686944b6dcc81",
+      "observation_ids": [
+        "ent-tls-a7fb8a5293f7266a"
+      ],
+      "support": 0.9603999999999999
+    },
+    {
+      "attributes": {
+        "key_bits": 2048.0
+      },
+      "entity_type": "certificate",
+      "identifiers": {
+        "certificate_fingerprint": [
+          "FPR-MINIMAL-RSA-001"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "certificate:56d9cf99b85f9beb",
+      "observation_ids": [
+        "ent-tls-28b630d67ce7930a"
+      ],
+      "support": 0.9603999999999999
+    },
+    {
+      "attributes": {
+        "exposure": 1.0,
+        "protocol": "TLS1.3"
+      },
+      "entity_type": "endpoint",
+      "identifiers": {
+        "endpoint_uri": [
+          "tls://minimal.local:443"
+        ],
+        "hostname": [
+          "minimal.local"
+        ]
+      },
+      "merge_log": [
+        {
+          "decision": "merged",
+          "entity_type": "endpoint",
+          "key": "endpoint_uri",
+          "left": "ent-cmdb-98ff04864d388f8c",
+          "right": "ent-tls-e7dfca2f09867266",
+          "rule": "strong_identifier",
+          "value": "tls://minimal.local:443"
+        }
+      ],
+      "node_id": "endpoint:1622d876134202c9",
+      "observation_ids": [
+        "ent-cmdb-98ff04864d388f8c",
+        "ent-tls-e7dfca2f09867266"
+      ],
+      "support": 0.99539056
+    },
+    {
+      "attributes": {
+        "agility": 0.6,
+        "criticality": 0.9,
+        "data_lifetime_years": 4.999999999999999,
+        "exposure": 1.0,
+        "migration_time_years": 1.0
+      },
+      "entity_type": "service",
+      "identifiers": {
+        "service_name": [
+          "minimal-api"
+        ],
+        "service_uid": [
+          "SVC-MINIMAL-001"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "service:9b70115890fe5c56",
+      "observation_ids": [
+        "ent-cmdb-03cc781f1ef73d92"
+      ],
+      "support": 0.8835999999999999
+    }
+  ],
+  "observation_to_node": {
+    "ent-cmdb-03cc781f1ef73d92": "service:9b70115890fe5c56",
+    "ent-cmdb-98ff04864d388f8c": "endpoint:1622d876134202c9",
+    "ent-tls-28b630d67ce7930a": "certificate:56d9cf99b85f9beb",
+    "ent-tls-a7fb8a5293f7266a": "algorithm:a45686944b6dcc81",
+    "ent-tls-e7dfca2f09867266": "endpoint:1622d876134202c9"
+  },
+  "quarantined_entity_ids": [],
+  "quarantined_relation_ids": [],
+  "rejected_relation_ids": []
+}

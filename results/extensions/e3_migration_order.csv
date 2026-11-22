@@ -1,0 +1,13 @@
+method,order,movr,interop_break_steps,exposure_auc,missing_assets_appended,first_break_step,plan_constraints_checked,plan_valid_on_predicted_graph
+tls_inventory,primary,0.07999999999999999,8.0,0.47261904761904755,12.0,2.0,0,True
+tls_inventory,interop_aware,0.07999999999999999,8.0,0.47261904761904755,12.0,2.0,0,True
+cbom_inventory,primary,0.04,4.0,0.475,15.0,1.0,3,False
+cbom_inventory,interop_aware,0.0,0.0,0.47619047619047616,15.0,0.0,3,True
+source_union,primary,0.06999999999999999,7.0,0.3904761904761904,2.0,1.0,7,False
+source_union,interop_aware,0.07999999999999999,8.0,0.4404761904761904,2.0,2.0,7,True
+exact_direct,primary,0.04,4.0,0.4095238095238095,2.0,1.0,6,False
+exact_direct,interop_aware,0.030000000000000006,3.0,0.42499999999999993,2.0,4.0,6,True
+tfidf_cosine,primary,0.04,4.0,0.4095238095238095,2.0,1.0,6,False
+tfidf_cosine,interop_aware,0.030000000000000006,3.0,0.42499999999999993,2.0,4.0,6,True
+cigma,primary,0.04,4.0,0.4083333333333333,2.0,1.0,5,False
+cigma,interop_aware,0.0,0.0,0.43928571428571433,2.0,0.0,5,True

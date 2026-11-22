@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "CIGMA Reference Implementation — clean-room rebuild"
+message: "This private clean-room implementation is not the lost historical CIGMA artifact. Cite the associated paper and identify the repository version used."
+type: software
+authors:
+  - family-names: Ameur
+    given-names: Yulliwas
+    orcid: "https://orcid.org/0000-0003-1435-2982"
+version: 0.1.0-clean-room
+date-released: 2026-08-26
+repository-code: "https://github.com/yulliwasameur/cigma-reference-implementation"
+license: LicenseRef-Proprietary

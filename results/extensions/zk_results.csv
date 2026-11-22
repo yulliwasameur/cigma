@@ -1,0 +1,4 @@
+scenario,witness_ok,prove_seconds,verify_ok,verify_seconds,proof_bytes
+current,false,,,,
+after_plan,true,3.736530426,true,.394503576,807
+after_plan_tight,false,,,,

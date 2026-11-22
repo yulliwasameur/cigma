@@ -1,0 +1,256 @@
+{
+  "e11": {
+    "fixture_plan": {
+      "certificate": "592fea8e33edd1eefbf63216a4cf2aa9888d4e42c21d973fd2dd2d8825bb5b7c",
+      "gap": 0.0,
+      "status": "OPTIMAL",
+      "valid": true
+    },
+    "orders": [
+      {
+        "certified_on_predicted_graph": false,
+        "exposure_auc": 0.4083333333333333,
+        "first_break_step": 1.0,
+        "interop_break_steps": 4.0,
+        "missing_assets_appended": 2.0,
+        "movr": 0.04,
+        "order": "primary"
+      },
+      {
+        "certified_on_predicted_graph": true,
+        "exposure_auc": 0.43928571428571433,
+        "first_break_step": 0.0,
+        "interop_break_steps": 0.0,
+        "missing_assets_appended": 2.0,
+        "movr": 0.0,
+        "order": "interop_aware"
+      },
+      {
+        "certified_on_predicted_graph": false,
+        "exposure_auc": 0.45119047619047625,
+        "first_break_step": 1.0,
+        "interop_break_steps": 7.0,
+        "missing_assets_appended": 2.0,
+        "movr": 0.06999999999999999,
+        "order": "sharma2026"
+      },
+      {
+        "certified_on_predicted_graph": true,
+        "exposure_auc": 0.425,
+        "first_break_step": 0.0,
+        "interop_break_steps": 0.0,
+        "missing_assets_appended": 2.0,
+        "movr": 0.0,
+        "order": "optimal_cp_sat"
+      }
+    ],
+    "synthetic": [
+      {
+        "greedy_excess_over_solver": 0.27898154393335456,
+        "greedy_objective": 1408.912,
+        "greedy_valid": true,
+        "lower_bound": 1075.46,
+        "proven_gap": 0.023719372651687613,
+        "seed": 0,
+        "solver_objective": 1101.589,
+        "solver_plan_valid": true,
+        "solver_seconds": 30.060036007999997,
+        "solver_status": "FEASIBLE",
+        "units": 50
+      },
+      {
+        "greedy_excess_over_solver": 0.08340580192930107,
+        "greedy_objective": 1235.867,
+        "greedy_valid": true,
+        "lower_bound": 1134.512,
+        "proven_gap": 0.005445664332476559,
+        "seed": 1,
+        "solver_objective": 1140.724,
+        "solver_plan_valid": true,
+        "solver_seconds": 30.03689250800005,
+        "solver_status": "FEASIBLE",
+        "units": 50
+      },
+      {
+        "greedy_excess_over_solver": 0.06523580174984495,
+        "greedy_objective": 1515.691,
+        "greedy_valid": true,
+        "lower_bound": 1390.09,
+        "proven_gap": 0.023037257822048268,
+        "seed": 2,
+        "solver_objective": 1422.869,
+        "solver_plan_valid": true,
+        "solver_seconds": 30.00208130199985,
+        "solver_status": "FEASIBLE",
+        "units": 50
+      },
+      {
+        "greedy_excess_over_solver": 0.09684600855024919,
+        "greedy_objective": 1576.59,
+        "greedy_valid": true,
+        "lower_bound": 1403.174,
+        "proven_gap": 0.023800860590586385,
+        "seed": 3,
+        "solver_objective": 1437.385,
+        "solver_plan_valid": true,
+        "solver_seconds": 30.01049128999989,
+        "solver_status": "FEASIBLE",
+        "units": 50
+      },
+      {
+        "greedy_excess_over_solver": 0.5997295342989105,
+        "greedy_objective": 2130.483,
+        "greedy_valid": true,
+        "lower_bound": 1331.777,
+        "proven_gap": 0.0,
+        "seed": 4,
+        "solver_objective": 1331.777,
+        "solver_plan_valid": true,
+        "solver_seconds": 27.825902101999873,
+        "solver_status": "OPTIMAL",
+        "units": 50
+      },
+      {
+        "greedy_excess_over_solver": 0.10842495934094055,
+        "greedy_objective": 12455.757,
+        "greedy_valid": true,
+        "lower_bound": 8962.543,
+        "proven_gap": 0.20243254903203142,
+        "seed": 0,
+        "solver_objective": 11237.348,
+        "solver_plan_valid": true,
+        "solver_seconds": 60.003785217000086,
+        "solver_status": "FEASIBLE",
+        "units": 500
+      },
+      {
+        "greedy_excess_over_solver": 0.008334150505430996,
+        "greedy_objective": 12041.112,
+        "greedy_valid": true,
+        "lower_bound": 9739.519,
+        "proven_gap": 0.18440343240752965,
+        "seed": 1,
+        "solver_objective": 11941.589,
+        "solver_plan_valid": true,
+        "solver_seconds": 60.00772701200003,
+        "solver_status": "FEASIBLE",
+        "units": 500
+      },
+      {
+        "greedy_excess_over_solver": 0.0547913717291433,
+        "greedy_objective": 13431.322,
+        "greedy_valid": true,
+        "lower_bound": 10606.073,
+        "proven_gap": 0.16708167011933522,
+        "seed": 2,
+        "solver_objective": 12733.629,
+        "solver_plan_valid": true,
+        "solver_seconds": 60.002310479000016,
+        "solver_status": "FEASIBLE",
+        "units": 500
+      },
+      {
+        "greedy_excess_over_solver": 0.008285503332520478,
+        "greedy_objective": 148911.132,
+        "greedy_valid": true,
+        "lower_bound": 109087.935,
+        "proven_gap": 0.26135956411250527,
+        "seed": 0,
+        "solver_objective": 147687.467,
+        "solver_plan_valid": true,
+        "solver_seconds": 120.19658527000001,
+        "solver_status": "FEASIBLE",
+        "units": 5000
+      },
+      {
+        "greedy_excess_over_solver": 0.0006043016587763452,
+        "greedy_objective": 139150.345,
+        "greedy_valid": true,
+        "lower_bound": 95146.757,
+        "proven_gap": 0.31581733165604237,
+        "seed": 1,
+        "solver_objective": 139066.307,
+        "solver_plan_valid": true,
+        "solver_seconds": 120.12860554300005,
+        "solver_status": "FEASIBLE",
+        "units": 5000
+      }
+    ]
+  },
+  "e14": {
+    "anchor_rank_max": 1.0,
+    "evaluations": 1792,
+    "indices": [
+      {
+        "S1": 0.0,
+        "ST": 0.0,
+        "parameter": "median_years"
+      },
+      {
+        "S1": 0.0,
+        "ST": 0.0,
+        "parameter": "sigma"
+      },
+      {
+        "S1": 0.0,
+        "ST": 0.0,
+        "parameter": "anchor_trust_years"
+      },
+      {
+        "S1": 0.0,
+        "ST": 0.0,
+        "parameter": "leaf_trust_years"
+      },
+      {
+        "S1": 0.0,
+        "ST": 0.0,
+        "parameter": "migration_years"
+      }
+    ],
+    "kendall_tau_mean": 1.0,
+    "kendall_tau_min": 1.0
+  },
+  "e15": [
+    {
+      "accepted": 0,
+      "attack": "borrowed_evidence_from_other_edge",
+      "submitted": 284
+    },
+    {
+      "accepted": 0,
+      "attack": "direct_with_fake_rule",
+      "submitted": 300
+    },
+    {
+      "accepted": 0,
+      "attack": "fabricated_evidence_id",
+      "submitted": 300
+    },
+    {
+      "accepted": 0,
+      "attack": "path_without_rule",
+      "submitted": 300
+    },
+    {
+      "accepted": 0,
+      "attack": "ungrounded_new_triple",
+      "submitted": 295
+    },
+    {
+      "accepted": 0,
+      "attack": "unknown_node",
+      "submitted": 300
+    },
+    {
+      "accepted": 300,
+      "attack": "valid_direct_with_injected_rationale",
+      "submitted": 300
+    }
+  ],
+  "e16": {
+    "consistency_v1_to_v3_ok": true,
+    "proof_hashes": 2,
+    "rewritten_history_detected": true,
+    "versions": 3
+  }
+}

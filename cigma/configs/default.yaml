@@ -1,0 +1,69 @@
+schema_version: cigma-config-v1
+quality_gates:
+  entity: 0.40
+  relation: 0.40
+source_reliabilities:
+  tls: 0.98
+  pki: 0.97
+  cbom: 0.88
+  cicd: 0.91
+  cmdb: 0.94
+  ot: 0.86
+identity:
+  strong_keys:
+    - certificate_fingerprint
+    - spki_fingerprint
+    - purl
+    - service_uid
+    - device_serial
+    - algorithm_id
+    - endpoint_uri
+    - pipeline_uid
+    - data_uid
+  alias_keys:
+    - service_name
+    - hostname
+    - repository_path
+    - deployment_name
+  tfidf_threshold: 0.80
+path_penalty: 0.92
+verification_threshold: 0.85
+policy_horizon_years: 10.0
+algorithm_policy:
+  policy_id: cigma-qv-policy-v1-clean-room
+  values:
+    RSA-2048: 1.0
+    ECDSA-P256: 1.0
+    AES-256-GCM: 0.15
+ranking:
+  ranked_types:
+    - service
+    - endpoint
+    - certificate
+    - software_component
+    - pipeline
+    - device
+  weighted_baseline:
+    Q: 0.30
+    H: 0.25
+    C: 0.20
+    X: 0.10
+    B: 0.15
+  verify_upper_tier_minimum: 2
+evaluation:
+  ndcg_cutoffs: [5, 10]
+  ece_bins: 5
+  bootstrap_resamples: 5000
+  randomization_draws: 10000
+  statistics_seed: 20260819
+robustness:
+  deletion_probabilities: [0.0, 0.10, 0.25, 0.50]
+  seeds: 32
+  methods:
+    - source_union
+    - exact_direct
+    - cigma
+  contrast_metrics:
+    - asset_f1
+    - edge_f1
+    - ndcg_at_5

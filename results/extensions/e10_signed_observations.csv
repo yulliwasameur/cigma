@@ -1,0 +1,4 @@
+scenario,poisoned_accepted,typed_edge_f1,reason_ok,reason_untrusted_key,reason_revoked_key
+outsider_untrusted_key,0,1.0,80,21.0,
+insider_stolen_trusted_key,11,0.8717948717948718,101,,
+insider_after_revoking_pki_key,0,0.8666666666666666,63,,38.0

@@ -1,0 +1,138 @@
+{
+  "interop_aware": {
+    "certificate_sha256": "8678483b7744633d07fafa2a6f26beb5bd021c897b29779f17026c9390d03b2f",
+    "constraints": [
+      {
+        "client": "service:64699a238609b7e4",
+        "client_step": 10,
+        "satisfied": true,
+        "server": "service:8bf49ca9f4f516df",
+        "server_step": 13
+      },
+      {
+        "client": "service:add285b97fba309f",
+        "client_step": 0,
+        "satisfied": true,
+        "server": "device:6e61327514476949",
+        "server_step": 17
+      },
+      {
+        "client": "service:aee6093c514bb3f9",
+        "client_step": 6,
+        "satisfied": true,
+        "server": "service:64699a238609b7e4",
+        "server_step": 10
+      },
+      {
+        "client": "service:aee6093c514bb3f9",
+        "client_step": 6,
+        "satisfied": true,
+        "server": "service:8bf49ca9f4f516df",
+        "server_step": 13
+      },
+      {
+        "client": "service:b1dc446b9ada3acf",
+        "client_step": 3,
+        "satisfied": true,
+        "server": "service:aee6093c514bb3f9",
+        "server_step": 6
+      }
+    ],
+    "constraints_checked": 5,
+    "graph_config_digest": "a2aded9e25e385c6ebf81fb864b98e3c0cd36cf41300e9833d01da4dd523e15c",
+    "order": [
+      "certificate:0281fccc5525344b",
+      "endpoint:fb522b400af47dee",
+      "service:add285b97fba309f",
+      "certificate:ed12dde96c0e764c",
+      "endpoint:eaec4004904adeb4",
+      "service:b1dc446b9ada3acf",
+      "certificate:25fa86944bd56ba5",
+      "endpoint:ecd078df2f21e773",
+      "service:aee6093c514bb3f9",
+      "software_component:7678508770861287",
+      "pipeline:3f4254abdd3e079c",
+      "service:64699a238609b7e4",
+      "software_component:6d24485621ac6f5b",
+      "certificate:1fc039343fc5941c",
+      "certificate:eb9aeb10dd59a703",
+      "endpoint:45ac48e9c0bf6d8c",
+      "service:8bf49ca9f4f516df",
+      "device:6e61327514476949"
+    ],
+    "valid": true,
+    "violations": []
+  },
+  "primary": {
+    "certificate_sha256": "1d3fee6db7f33a9336a869d0a7cec0a58c52fdfeb7b2e987de702403a0dfe1cf",
+    "constraints": [
+      {
+        "client": "service:64699a238609b7e4",
+        "client_step": 4,
+        "satisfied": false,
+        "server": "service:8bf49ca9f4f516df",
+        "server_step": 0
+      },
+      {
+        "client": "service:add285b97fba309f",
+        "client_step": 0,
+        "satisfied": true,
+        "server": "device:6e61327514476949",
+        "server_step": 12
+      },
+      {
+        "client": "service:aee6093c514bb3f9",
+        "client_step": 0,
+        "satisfied": true,
+        "server": "service:64699a238609b7e4",
+        "server_step": 4
+      },
+      {
+        "client": "service:aee6093c514bb3f9",
+        "client_step": 0,
+        "satisfied": true,
+        "server": "service:8bf49ca9f4f516df",
+        "server_step": 0
+      },
+      {
+        "client": "service:b1dc446b9ada3acf",
+        "client_step": 0,
+        "satisfied": true,
+        "server": "service:aee6093c514bb3f9",
+        "server_step": 0
+      }
+    ],
+    "constraints_checked": 5,
+    "graph_config_digest": "a2aded9e25e385c6ebf81fb864b98e3c0cd36cf41300e9833d01da4dd523e15c",
+    "order": [
+      "certificate:1fc039343fc5941c",
+      "certificate:eb9aeb10dd59a703",
+      "endpoint:45ac48e9c0bf6d8c",
+      "service:8bf49ca9f4f516df",
+      "pipeline:3f4254abdd3e079c",
+      "certificate:25fa86944bd56ba5",
+      "endpoint:ecd078df2f21e773",
+      "service:aee6093c514bb3f9",
+      "software_component:7678508770861287",
+      "service:64699a238609b7e4",
+      "software_component:6d24485621ac6f5b",
+      "certificate:0281fccc5525344b",
+      "device:6e61327514476949",
+      "endpoint:fb522b400af47dee",
+      "service:add285b97fba309f",
+      "certificate:ed12dde96c0e764c",
+      "endpoint:eaec4004904adeb4",
+      "service:b1dc446b9ada3acf"
+    ],
+    "valid": false,
+    "violations": [
+      {
+        "client": "service:64699a238609b7e4",
+        "client_step": 4,
+        "satisfied": false,
+        "server": "service:8bf49ca9f4f516df",
+        "server_step": 0
+      }
+    ]
+  }
+}

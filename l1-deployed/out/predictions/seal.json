@@ -1,0 +1,40 @@
+{
+  "config_digest": "c6b44b8e2c4e165b24f38fa2f810817f83fdf99d382f93f1775ddfe472d60c2b",
+  "config_sha256": "e3b8cf2826e8a8d9850acd4e16bd73f2669c8e8fa786d7c46ca00df776c761f3",
+  "implementation_tree_sha256": "86890119cd2d9318b7af35f66a4eb13cc955166fb50067027b3c0b68a9ac3679",
+  "manifest_sha256": "725ffd4ba06ebbc92e894a79ac6a4e6ad87adbe6d91a6c6c96586a31628c28d2",
+  "methods": [
+    "source_union",
+    "exact_direct",
+    "tfidf_cosine",
+    "cigma"
+  ],
+  "prediction_files": {
+    "cigma": {
+      "graph": "cigma.graph.json",
+      "graph_sha256": "759eea09520022fca7c0283c984995a98ab46d4e356b41111336750a0ac48c46",
+      "ranking": "cigma.ranking.json",
+      "ranking_sha256": "9db69c838edfceb667ab9514c6defdb38e343ccf1fc0d27efa4953b9559bd38b"
+    },
+    "exact_direct": {
+      "graph": "exact_direct.graph.json",
+      "graph_sha256": "85e001dfec728fd0aeb7a36296af747c1589d823caee630e25c7cddb40e7a8ac",
+      "ranking": "exact_direct.ranking.json",
+      "ranking_sha256": "86848b5b4dc53d09ec6e9b3c4ab2736605dc54e644b7fa922d09dca7e9b925e8"
+    },
+    "source_union": {
+      "graph": "source_union.graph.json",
+      "graph_sha256": "3db7bf8a64f797abc57df8e4a24517d29f65639962338002e540aeacdc2e0116",
+      "ranking": "source_union.ranking.json",
+      "ranking_sha256": "66e133b4aa29572ab16e9146134a3d59600d084b9d6cc094e6daf3b155d13ea1"
+    },
+    "tfidf_cosine": {
+      "graph": "tfidf_cosine.graph.json",
+      "graph_sha256": "7b64fcb593d4771865e04d687f002251f9191f002542e0d4168d66daf5eaa5ab",
+      "ranking": "tfidf_cosine.ranking.json",
+      "ranking_sha256": "929b5339ba078a9edaab5e1c63bb8815b33c35d4dfc76fdd9a736c7f03904688"
+    }
+  },
+  "public_tree_sha256": "dc480b6b55f3f13c65eecd343e9c8caf8c63819df93b84f6025e0265fbbd8308",
+  "schema": "cigma-prediction-seal-v1"
+}

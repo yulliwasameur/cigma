@@ -1,0 +1,4 @@
+Data, oracle annotations, raw model outputs and results in this repository are licensed under
+Creative Commons Attribution 4.0 International (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+Third-party material keeps its own licence: Online Boutique (Apache-2.0, Google LLC), Istio (Apache-2.0).
+Model outputs are released for research reproducibility; model weights are not redistributed.

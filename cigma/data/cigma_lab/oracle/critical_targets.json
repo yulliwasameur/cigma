@@ -1,0 +1,18 @@
+[
+  "svc_edge",
+  "svc_patient",
+  "svc_auth",
+  "svc_db",
+  "svc_ot",
+  "ep_edge",
+  "ep_patient",
+  "ep_db",
+  "ep_ot",
+  "cert_edge",
+  "cert_patient",
+  "cert_db",
+  "cert_ot",
+  "comp_patient",
+  "comp_auth",
+  "dev_plc"
+]

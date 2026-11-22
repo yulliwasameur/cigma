@@ -1,0 +1,3 @@
+method,asset_f1,pairwise_f1,b3_f1,typed_edge_f1,edge_fp_rate,critical_misses,verify_count,ndcg_at_5,ndcg_at_10,kendall_tau_b
+cigma_fixed_reliability,1.0,1.0,1.0,1.0,0.0,0,15,0.596829757612036,0.7975604866196698,0.31354672194261357
+cigma_learned_reliability,1.0,1.0,1.0,1.0,0.0,0,18,0.596829757612036,0.7975604866196698,0.31354672194261357

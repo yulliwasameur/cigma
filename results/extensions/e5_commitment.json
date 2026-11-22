@@ -1,0 +1,1128 @@
+{
+  "all_receipts_verify": true,
+  "leaves": 76,
+  "mean_disclosed_fraction": 0.06578947368421052,
+  "receipts_top5": [
+    {
+      "disclosed_leaves": 6,
+      "items": [
+        {
+          "payload": {
+            "entity_type": "certificate",
+            "evidence": [
+              "ent-pki-21741f712c2053d9",
+              "ent-pki-b1b510b5680cf4b4"
+            ],
+            "kind": "node",
+            "node_id": "certificate:1fc039343fc5941c",
+            "support": 0.995361
+          },
+          "proof": [
+            {
+              "hash": "2bf870add60f3565b7fe52f4106ed9549849ab4a5ebee3e67bc5762615ff7938",
+              "side": "right"
+            },
+            {
+              "hash": "dbe6393ec8da03f029b1200eb9e88c71628b8d0521dfdf46f3f1648cfe0c895b",
+              "side": "right"
+            },
+            {
+              "hash": "a2487c658d2f41ae8a946ef207db05bf43858db707990ac0f581a43699e4d172",
+              "side": "right"
+            },
+            {
+              "hash": "7fc8346041f5527648a3fc776d9d77bf66ac9154ca8d11f2c155da243baa918f",
+              "side": "left"
+            },
+            {
+              "hash": "2a3aa1c76c733b21e495e3cfc1fdbcf74a0225bb406535d5ee1c9a824a551452",
+              "side": "right"
+            },
+            {
+              "hash": "6dd664aaee43336f08b9dfd9de98368a24c868f294ad755d01b1e6da6051ed84",
+              "side": "right"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "derived": false,
+            "evidence": [
+              "rel-pki-2548100142633125"
+            ],
+            "kind": "edge",
+            "object": "certificate:1fc039343fc5941c",
+            "predicate": "ISSUED-BY",
+            "rules": [],
+            "subject": "certificate:eb9aeb10dd59a703",
+            "support": 0.937616
+          },
+          "proof": [
+            {
+              "hash": "37c88dad8c4f8c0b761919fe97490bc4ecbfbda977cb809069a8e2cac4294cd5",
+              "side": "right"
+            },
+            {
+              "hash": "2e81e3bd3e5e672332cb8503229422f35aed25889e8c644cf5ef3ee3085c24ac",
+              "side": "right"
+            },
+            {
+              "hash": "9d130e48a5e3621209b7b4ef6c4194a07d66b718078fd2d88f9ed44c1f8d2025",
+              "side": "left"
+            },
+            {
+              "hash": "7fc8346041f5527648a3fc776d9d77bf66ac9154ca8d11f2c155da243baa918f",
+              "side": "left"
+            },
+            {
+              "hash": "2a3aa1c76c733b21e495e3cfc1fdbcf74a0225bb406535d5ee1c9a824a551452",
+              "side": "right"
+            },
+            {
+              "hash": "6dd664aaee43336f08b9dfd9de98368a24c868f294ad755d01b1e6da6051ed84",
+              "side": "right"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "derived": false,
+            "evidence": [
+              "rel-pki-2df7c46e809d0f58"
+            ],
+            "kind": "edge",
+            "object": "certificate:1fc039343fc5941c",
+            "predicate": "ISSUED-BY",
+            "rules": [],
+            "subject": "certificate:ed12dde96c0e764c",
+            "support": 0.938607
+          },
+          "proof": [
+            {
+              "hash": "4d177ff918ca6da803551e57e3ebd692d572daeee5752b4fe6b707d496885a3c",
+              "side": "left"
+            },
+            {
+              "hash": "e4641c927ece68956572a3e99da5905b0db489eae29d019adc7a276cd1e58a53",
+              "side": "left"
+            },
+            {
+              "hash": "bc6c8ed57edbc6d5ab1a59b95203efd83f7698b6d8c125cd9c154e77eeb97bc6",
+              "side": "right"
+            },
+            {
+              "hash": "8eba7de5787a6ba46bea18476fd16c0e1ed561d3dcab87ff27cc3e34a1487569",
+              "side": "right"
+            },
+            {
+              "hash": "73f830577abd50d72230c75690811e8cb946698362abaed6ada8c50409ea4740",
+              "side": "left"
+            },
+            {
+              "hash": "6dd664aaee43336f08b9dfd9de98368a24c868f294ad755d01b1e6da6051ed84",
+              "side": "right"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "evidence_confidence": 0.613251,
+            "kind": "decision",
+            "lower_tier": 3,
+            "node_id": "certificate:1fc039343fc5941c",
+            "primary_rank": 1,
+            "upper_tier": 3,
+            "verify": true
+          },
+          "proof": [
+            {
+              "hash": "5eae4595cd16286a08aafc36d6dc058fafee725f459662a8f93c0172d37d4f1b",
+              "side": "left"
+            },
+            {
+              "hash": "6eb081c5a3ca88c832265ce74c05d3cbca89e08a509dd992f3f174111ffa5e13",
+              "side": "left"
+            },
+            {
+              "hash": "9b2ac21b38b2432c0053e9fef2f4a8ca08928f01c332bac74693bf337d3b8465",
+              "side": "right"
+            },
+            {
+              "hash": "73beded051095d26492b3a2bfbf6618318b4226b47b4a5060a78f9eb86ddd019",
+              "side": "left"
+            },
+            {
+              "hash": "73f830577abd50d72230c75690811e8cb946698362abaed6ada8c50409ea4740",
+              "side": "left"
+            },
+            {
+              "hash": "6dd664aaee43336f08b9dfd9de98368a24c868f294ad755d01b1e6da6051ed84",
+              "side": "right"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "derived": false,
+            "evidence": [
+              "rel-pki-8061faf504b864e0"
+            ],
+            "kind": "edge",
+            "object": "certificate:1fc039343fc5941c",
+            "predicate": "ISSUED-BY",
+            "rules": [],
+            "subject": "certificate:0281fccc5525344b",
+            "support": 0.937616
+          },
+          "proof": [
+            {
+              "hash": "607da795ba86847d5e19169a2a36c36351be3b0ac969fef8539777a9ca9d8752",
+              "side": "right"
+            },
+            {
+              "hash": "775bcfd3ba7378115a6f338116e9e46623b27702a2480e218fbcfd4f455ee32b",
+              "side": "right"
+            },
+            {
+              "hash": "97dfafacdce7a2c2849ddfe1bd55e93cb13ce4343fa744a6f0c56a57a9ab8bdf",
+              "side": "left"
+            },
+            {
+              "hash": "73beded051095d26492b3a2bfbf6618318b4226b47b4a5060a78f9eb86ddd019",
+              "side": "left"
+            },
+            {
+              "hash": "73f830577abd50d72230c75690811e8cb946698362abaed6ada8c50409ea4740",
+              "side": "left"
+            },
+            {
+              "hash": "6dd664aaee43336f08b9dfd9de98368a24c868f294ad755d01b1e6da6051ed84",
+              "side": "right"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "derived": false,
+            "evidence": [
+              "rel-pki-60efe05cc5553da1"
+            ],
+            "kind": "edge",
+            "object": "certificate:1fc039343fc5941c",
+            "predicate": "ISSUED-BY",
+            "rules": [],
+            "subject": "certificate:25fa86944bd56ba5",
+            "support": 0.937616
+          },
+          "proof": [
+            {
+              "hash": "a809e956d975813c11dc74a83bafa73300c7c8f1d42bd7c118cda0d4e8e6d5cc",
+              "side": "left"
+            },
+            {
+              "hash": "eeb15ab778d3afe00f195301cef670f5d6a0653948e0d8879e221aa6f3af1baa",
+              "side": "right"
+            },
+            {
+              "hash": "1bc0d4b548e60670acd8627cb777011e1294a58176a8e41e85df8cda6c2ded9d",
+              "side": "right"
+            },
+            {
+              "hash": "c863e6f39d516ac0209d29f7dfc49d439eb5a77e733909516f1f8ef4e51c21f4",
+              "side": "right"
+            },
+            {
+              "hash": "c30f3f3888400a1b1074cdd394997565f37dab52fa93f2a71f48389af3a5319a",
+              "side": "left"
+            },
+            {
+              "hash": "0d12809e6531a35ffaeceb68f596b877bde517b507bb28e5a91e95ebc8d49aa9",
+              "side": "left"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        }
+      ],
+      "node_id": "certificate:1fc039343fc5941c",
+      "root": "db0076adf21a2342f4e32032985ce703663cda04c8d42e273cd61404e78f9c78",
+      "total_leaves": 76
+    },
+    {
+      "disclosed_leaves": 5,
+      "items": [
+        {
+          "payload": {
+            "evidence_confidence": 0.701384,
+            "kind": "decision",
+            "lower_tier": 3,
+            "node_id": "certificate:eb9aeb10dd59a703",
+            "primary_rank": 2,
+            "upper_tier": 3,
+            "verify": true
+          },
+          "proof": [
+            {
+              "hash": "1417a846cf45286c10dec17983c1d62e6658eac33af3bb57ad136580f9dd8b46",
+              "side": "left"
+            },
+            {
+              "hash": "9acfd3bf275a10150fab3c08fc0bbd3810b003c9ec02e8a0bd13b8f9ed55c567",
+              "side": "right"
+            },
+            {
+              "hash": "39a0bd66170d7efc4f60d4d382c482ced68caab890d7d40015aae7bfe0f8d882",
+              "side": "left"
+            },
+            {
+              "hash": "62ea37d431248d9b810b2729c5719d8901aae96ffe45b095efc2ffb01481238f",
+              "side": "right"
+            },
+            {
+              "hash": "2a3aa1c76c733b21e495e3cfc1fdbcf74a0225bb406535d5ee1c9a824a551452",
+              "side": "right"
+            },
+            {
+              "hash": "6dd664aaee43336f08b9dfd9de98368a24c868f294ad755d01b1e6da6051ed84",
+              "side": "right"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "derived": false,
+            "evidence": [
+              "rel-pki-2548100142633125"
+            ],
+            "kind": "edge",
+            "object": "certificate:1fc039343fc5941c",
+            "predicate": "ISSUED-BY",
+            "rules": [],
+            "subject": "certificate:eb9aeb10dd59a703",
+            "support": 0.937616
+          },
+          "proof": [
+            {
+              "hash": "37c88dad8c4f8c0b761919fe97490bc4ecbfbda977cb809069a8e2cac4294cd5",
+              "side": "right"
+            },
+            {
+              "hash": "2e81e3bd3e5e672332cb8503229422f35aed25889e8c644cf5ef3ee3085c24ac",
+              "side": "right"
+            },
+            {
+              "hash": "9d130e48a5e3621209b7b4ef6c4194a07d66b718078fd2d88f9ed44c1f8d2025",
+              "side": "left"
+            },
+            {
+              "hash": "7fc8346041f5527648a3fc776d9d77bf66ac9154ca8d11f2c155da243baa918f",
+              "side": "left"
+            },
+            {
+              "hash": "2a3aa1c76c733b21e495e3cfc1fdbcf74a0225bb406535d5ee1c9a824a551452",
+              "side": "right"
+            },
+            {
+              "hash": "6dd664aaee43336f08b9dfd9de98368a24c868f294ad755d01b1e6da6051ed84",
+              "side": "right"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "derived": false,
+            "evidence": [
+              "rel-pki-488f419eb3841e9c"
+            ],
+            "kind": "edge",
+            "object": "algorithm:a45686944b6dcc81",
+            "predicate": "USES",
+            "rules": [],
+            "subject": "certificate:eb9aeb10dd59a703",
+            "support": 0.93955
+          },
+          "proof": [
+            {
+              "hash": "5133e2fbb1831dcf8a15410cabb10405a1fc37885238e97097664824bdbe6501",
+              "side": "right"
+            },
+            {
+              "hash": "269335f2f615b258856b9cf83a35cb52342c323fbfe07a474733602cbfd5dc10",
+              "side": "right"
+            },
+            {
+              "hash": "600a7a222f9478a3a36a73137fb0e5f4df1e9ccae0837f2dc3c39ad28dbbc002",
+              "side": "left"
+            },
+            {
+              "hash": "8eba7de5787a6ba46bea18476fd16c0e1ed561d3dcab87ff27cc3e34a1487569",
+              "side": "right"
+            },
+            {
+              "hash": "73f830577abd50d72230c75690811e8cb946698362abaed6ada8c50409ea4740",
+              "side": "left"
+            },
+            {
+              "hash": "6dd664aaee43336f08b9dfd9de98368a24c868f294ad755d01b1e6da6051ed84",
+              "side": "right"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "derived": false,
+            "evidence": [
+              "rel-tls-9011f6af5d0dff9c"
+            ],
+            "kind": "edge",
+            "object": "certificate:eb9aeb10dd59a703",
+            "predicate": "PRESENTS",
+            "rules": [],
+            "subject": "endpoint:45ac48e9c0bf6d8c",
+            "support": 0.957062
+          },
+          "proof": [
+            {
+              "hash": "64fc60c73308fa9d7cbf0146800b0c423048de089b9f8c657c2c22a74cfc1d4c",
+              "side": "left"
+            },
+            {
+              "hash": "27dd3b1ede0dff1517d2bb065488254af816244131dc3ff9a42415857a44d8f9",
+              "side": "right"
+            },
+            {
+              "hash": "c9f595e6f95bb8fd0a03f8eb0b795da762f263b8a04b936dbfe9df7e4587c7e0",
+              "side": "right"
+            },
+            {
+              "hash": "7abadd6f81d30aca08ed28f14cf1494fb337774746c4f0a9630fef08ec804a7a",
+              "side": "right"
+            },
+            {
+              "hash": "7014e5c8e9168f2c8c754d56a96b8eb5e1ccbdd319b1e388bddb77b2048c0b1a",
+              "side": "right"
+            },
+            {
+              "hash": "0d12809e6531a35ffaeceb68f596b877bde517b507bb28e5a91e95ebc8d49aa9",
+              "side": "left"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "entity_type": "certificate",
+            "evidence": [
+              "ent-pki-85a64a4eb94d3d59",
+              "ent-tls-d40c8d3f9578b723"
+            ],
+            "kind": "node",
+            "node_id": "certificate:eb9aeb10dd59a703",
+            "support": 0.99766
+          },
+          "proof": [
+            {
+              "hash": "a81edfaa5e99db8f2ad1f508488f52da20bb494e127140b2008538820d82bbb2",
+              "side": "right"
+            },
+            {
+              "hash": "eeb15ab778d3afe00f195301cef670f5d6a0653948e0d8879e221aa6f3af1baa",
+              "side": "right"
+            },
+            {
+              "hash": "1bc0d4b548e60670acd8627cb777011e1294a58176a8e41e85df8cda6c2ded9d",
+              "side": "right"
+            },
+            {
+              "hash": "c863e6f39d516ac0209d29f7dfc49d439eb5a77e733909516f1f8ef4e51c21f4",
+              "side": "right"
+            },
+            {
+              "hash": "c30f3f3888400a1b1074cdd394997565f37dab52fa93f2a71f48389af3a5319a",
+              "side": "left"
+            },
+            {
+              "hash": "0d12809e6531a35ffaeceb68f596b877bde517b507bb28e5a91e95ebc8d49aa9",
+              "side": "left"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        }
+      ],
+      "node_id": "certificate:eb9aeb10dd59a703",
+      "root": "db0076adf21a2342f4e32032985ce703663cda04c8d42e273cd61404e78f9c78",
+      "total_leaves": 76
+    },
+    {
+      "disclosed_leaves": 4,
+      "items": [
+        {
+          "payload": {
+            "evidence_confidence": 0.701384,
+            "kind": "decision",
+            "lower_tier": 3,
+            "node_id": "endpoint:45ac48e9c0bf6d8c",
+            "primary_rank": 3,
+            "upper_tier": 3,
+            "verify": true
+          },
+          "proof": [
+            {
+              "hash": "607c077f40ec36828b32cac36963f83b699604601bcdff20e326b33bdef2d1c3",
+              "side": "left"
+            },
+            {
+              "hash": "775bcfd3ba7378115a6f338116e9e46623b27702a2480e218fbcfd4f455ee32b",
+              "side": "right"
+            },
+            {
+              "hash": "97dfafacdce7a2c2849ddfe1bd55e93cb13ce4343fa744a6f0c56a57a9ab8bdf",
+              "side": "left"
+            },
+            {
+              "hash": "73beded051095d26492b3a2bfbf6618318b4226b47b4a5060a78f9eb86ddd019",
+              "side": "left"
+            },
+            {
+              "hash": "73f830577abd50d72230c75690811e8cb946698362abaed6ada8c50409ea4740",
+              "side": "left"
+            },
+            {
+              "hash": "6dd664aaee43336f08b9dfd9de98368a24c868f294ad755d01b1e6da6051ed84",
+              "side": "right"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "derived": false,
+            "evidence": [
+              "rel-tls-9011f6af5d0dff9c"
+            ],
+            "kind": "edge",
+            "object": "certificate:eb9aeb10dd59a703",
+            "predicate": "PRESENTS",
+            "rules": [],
+            "subject": "endpoint:45ac48e9c0bf6d8c",
+            "support": 0.957062
+          },
+          "proof": [
+            {
+              "hash": "64fc60c73308fa9d7cbf0146800b0c423048de089b9f8c657c2c22a74cfc1d4c",
+              "side": "left"
+            },
+            {
+              "hash": "27dd3b1ede0dff1517d2bb065488254af816244131dc3ff9a42415857a44d8f9",
+              "side": "right"
+            },
+            {
+              "hash": "c9f595e6f95bb8fd0a03f8eb0b795da762f263b8a04b936dbfe9df7e4587c7e0",
+              "side": "right"
+            },
+            {
+              "hash": "7abadd6f81d30aca08ed28f14cf1494fb337774746c4f0a9630fef08ec804a7a",
+              "side": "right"
+            },
+            {
+              "hash": "7014e5c8e9168f2c8c754d56a96b8eb5e1ccbdd319b1e388bddb77b2048c0b1a",
+              "side": "right"
+            },
+            {
+              "hash": "0d12809e6531a35ffaeceb68f596b877bde517b507bb28e5a91e95ebc8d49aa9",
+              "side": "left"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "derived": false,
+            "evidence": [
+              "rel-cmdb-5c59b32a614d1681"
+            ],
+            "kind": "edge",
+            "object": "endpoint:45ac48e9c0bf6d8c",
+            "predicate": "HOSTS",
+            "rules": [],
+            "subject": "service:8bf49ca9f4f516df",
+            "support": 0.828668
+          },
+          "proof": [
+            {
+              "hash": "90d22acc79e1ecde81dbd1ca30d198a51630d299c3ed5f33048e8a276b7564c1",
+              "side": "left"
+            },
+            {
+              "hash": "3c316de6b66981ba5f3ac96e4c5c0d6f29cfca25959d76e60e12d11b1868ac9e",
+              "side": "left"
+            },
+            {
+              "hash": "a0e5fc403b4dd29bdb3206740b14f98251378b27c68962b7caac34dae583f3c0",
+              "side": "right"
+            },
+            {
+              "hash": "a868a34b17fb1b796b1b8409ff143d9605a045a437d00fe9878d40cd9b4115d1",
+              "side": "left"
+            },
+            {
+              "hash": "7014e5c8e9168f2c8c754d56a96b8eb5e1ccbdd319b1e388bddb77b2048c0b1a",
+              "side": "right"
+            },
+            {
+              "hash": "0d12809e6531a35ffaeceb68f596b877bde517b507bb28e5a91e95ebc8d49aa9",
+              "side": "left"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "entity_type": "endpoint",
+            "evidence": [
+              "ent-cmdb-1fcb1ada0387854b",
+              "ent-tls-1281a9e1fea28372"
+            ],
+            "kind": "node",
+            "node_id": "endpoint:45ac48e9c0bf6d8c",
+            "support": 0.995391
+          },
+          "proof": [
+            {
+              "hash": "fc74c9ab5f3e8ec1a643c4afa5fa7ab6d0930fe962e55cc69657bade86d3a1ed",
+              "side": "left"
+            },
+            {
+              "hash": "030474cf6d9230e44e4b71db6b5ea26a07c6f5ed9ee6e846373353d98562005c",
+              "side": "left"
+            },
+            {
+              "hash": "fbb21156bf3c07b18bedc0c7078b36c2a1265dea8e8f20b03dfb7c9dcbc04c99",
+              "side": "right"
+            },
+            {
+              "hash": "fae00577a2c24bb4e495f609862f66f60147a99b48190809f4ff8d3f71e596b3",
+              "side": "left"
+            },
+            {
+              "hash": "bf37bfcb9f462d99d9e51a89b8c356c64b3dc3bd46837926fa0eb5f288c0b579",
+              "side": "right"
+            },
+            {
+              "hash": "ac97202f52ef073db864a040461fade8c6f094d417422aeee295b5c7b58d3c0e",
+              "side": "right"
+            },
+            {
+              "hash": "e8086e8a2d2a424ba5fa7b0712c03f9b394efdbc2bdfdbfaf63c95ed0cb320fc",
+              "side": "left"
+            }
+          ]
+        }
+      ],
+      "node_id": "endpoint:45ac48e9c0bf6d8c",
+      "root": "db0076adf21a2342f4e32032985ce703663cda04c8d42e273cd61404e78f9c78",
+      "total_leaves": 76
+    },
+    {
+      "disclosed_leaves": 6,
+      "items": [
+        {
+          "payload": {
+            "evidence_confidence": 0.701384,
+            "kind": "decision",
+            "lower_tier": 3,
+            "node_id": "service:8bf49ca9f4f516df",
+            "primary_rank": 4,
+            "upper_tier": 3,
+            "verify": true
+          },
+          "proof": [
+            {
+              "hash": "7d13aabe54108744edd35a1b052545d5f38fb74123a5ceb0454bb3287341d772",
+              "side": "left"
+            },
+            {
+              "hash": "4ce07d35af71a4b2e3312446d6726bc245f942012feb77a66e8e0c81c95dda52",
+              "side": "right"
+            },
+            {
+              "hash": "30b48c5baf3a83943640a8d2fc8cf832f560b366f3cd8dbab6b084ad3f1a1f1e",
+              "side": "left"
+            },
+            {
+              "hash": "7abadd6f81d30aca08ed28f14cf1494fb337774746c4f0a9630fef08ec804a7a",
+              "side": "right"
+            },
+            {
+              "hash": "7014e5c8e9168f2c8c754d56a96b8eb5e1ccbdd319b1e388bddb77b2048c0b1a",
+              "side": "right"
+            },
+            {
+              "hash": "0d12809e6531a35ffaeceb68f596b877bde517b507bb28e5a91e95ebc8d49aa9",
+              "side": "left"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "derived": false,
+            "evidence": [
+              "rel-cmdb-5c59b32a614d1681"
+            ],
+            "kind": "edge",
+            "object": "endpoint:45ac48e9c0bf6d8c",
+            "predicate": "HOSTS",
+            "rules": [],
+            "subject": "service:8bf49ca9f4f516df",
+            "support": 0.828668
+          },
+          "proof": [
+            {
+              "hash": "90d22acc79e1ecde81dbd1ca30d198a51630d299c3ed5f33048e8a276b7564c1",
+              "side": "left"
+            },
+            {
+              "hash": "3c316de6b66981ba5f3ac96e4c5c0d6f29cfca25959d76e60e12d11b1868ac9e",
+              "side": "left"
+            },
+            {
+              "hash": "a0e5fc403b4dd29bdb3206740b14f98251378b27c68962b7caac34dae583f3c0",
+              "side": "right"
+            },
+            {
+              "hash": "a868a34b17fb1b796b1b8409ff143d9605a045a437d00fe9878d40cd9b4115d1",
+              "side": "left"
+            },
+            {
+              "hash": "7014e5c8e9168f2c8c754d56a96b8eb5e1ccbdd319b1e388bddb77b2048c0b1a",
+              "side": "right"
+            },
+            {
+              "hash": "0d12809e6531a35ffaeceb68f596b877bde517b507bb28e5a91e95ebc8d49aa9",
+              "side": "left"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "derived": false,
+            "evidence": [
+              "rel-cmdb-d609e6cfcda37764"
+            ],
+            "kind": "edge",
+            "object": "service:8bf49ca9f4f516df",
+            "predicate": "DEPENDS-ON",
+            "rules": [],
+            "subject": "service:aee6093c514bb3f9",
+            "support": 0.830161
+          },
+          "proof": [
+            {
+              "hash": "a1d09e22f7e0c350750120d4ca5497724e6afefb4d2575a0776e70ef4d95c2be",
+              "side": "right"
+            },
+            {
+              "hash": "60a1dbd66c95d62f89f3f7ba8093853fceba132f1efdc0aac21c7b8b4806de64",
+              "side": "left"
+            },
+            {
+              "hash": "07484c0689a6c93aa73e872fed391768bb9349452223c8d5435ad8ddbb717610",
+              "side": "left"
+            },
+            {
+              "hash": "a868a34b17fb1b796b1b8409ff143d9605a045a437d00fe9878d40cd9b4115d1",
+              "side": "left"
+            },
+            {
+              "hash": "7014e5c8e9168f2c8c754d56a96b8eb5e1ccbdd319b1e388bddb77b2048c0b1a",
+              "side": "right"
+            },
+            {
+              "hash": "0d12809e6531a35ffaeceb68f596b877bde517b507bb28e5a91e95ebc8d49aa9",
+              "side": "left"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "derived": false,
+            "evidence": [
+              "rel-cmdb-4f334f990d1ecd1e"
+            ],
+            "kind": "edge",
+            "object": "service:8bf49ca9f4f516df",
+            "predicate": "DEPENDS-ON",
+            "rules": [],
+            "subject": "service:64699a238609b7e4",
+            "support": 0.828707
+          },
+          "proof": [
+            {
+              "hash": "b3505389be7cdad1baab7a9f7297e16d4ce367ca67b693d3eddeebc673e1b2c9",
+              "side": "right"
+            },
+            {
+              "hash": "f424c7e22d3850c7fec6fb0035e8d875a2adc10f429d648141470874f26bce47",
+              "side": "right"
+            },
+            {
+              "hash": "16e397eaf36784f8cb1035b06f203c19560227d4d72df522518c1418de192444",
+              "side": "left"
+            },
+            {
+              "hash": "c863e6f39d516ac0209d29f7dfc49d439eb5a77e733909516f1f8ef4e51c21f4",
+              "side": "right"
+            },
+            {
+              "hash": "c30f3f3888400a1b1074cdd394997565f37dab52fa93f2a71f48389af3a5319a",
+              "side": "left"
+            },
+            {
+              "hash": "0d12809e6531a35ffaeceb68f596b877bde517b507bb28e5a91e95ebc8d49aa9",
+              "side": "left"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "derived": true,
+            "evidence": [
+              "rel-cmdb-5c59b32a614d1681",
+              "rel-pki-488f419eb3841e9c",
+              "rel-tls-9011f6af5d0dff9c"
+            ],
+            "kind": "edge",
+            "object": "algorithm:a45686944b6dcc81",
+            "predicate": "USES",
+            "rules": [
+              "HOSTS_o_PRESENTS_o_USES"
+            ],
+            "subject": "service:8bf49ca9f4f516df",
+            "support": 0.701384
+          },
+          "proof": [
+            {
+              "hash": "b9121368f9bb19ed34d002655700365624e8e807bd8277648762b14c2b4babe8",
+              "side": "right"
+            },
+            {
+              "hash": "0a1b776b1c3ef511244da3cde262241ae96030c7ae3d49c7baa78a9bbb70fb73",
+              "side": "right"
+            },
+            {
+              "hash": "43296a1e7959356bc6e2a60137f4528d8310168851926680ae62e7c837249b57",
+              "side": "right"
+            },
+            {
+              "hash": "71c5b835d3d5bba54924ad32fb615116c9aa30e9a30be7d7a01657eb53a0a4bd",
+              "side": "left"
+            },
+            {
+              "hash": "c30f3f3888400a1b1074cdd394997565f37dab52fa93f2a71f48389af3a5319a",
+              "side": "left"
+            },
+            {
+              "hash": "0d12809e6531a35ffaeceb68f596b877bde517b507bb28e5a91e95ebc8d49aa9",
+              "side": "left"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "entity_type": "service",
+            "evidence": [
+              "ent-cmdb-739c3ba8971f2c5e"
+            ],
+            "kind": "node",
+            "node_id": "service:8bf49ca9f4f516df",
+            "support": 0.8836
+          },
+          "proof": [
+            {
+              "hash": "e90fe6cda61e189f7b4b41b9383917eb165e697761133bc9ec48c9f2094f4584",
+              "side": "right"
+            },
+            {
+              "hash": "52ae23d7506fc5ce771b9fea129a47b150603806ec67be687df3198c52316b0c",
+              "side": "right"
+            },
+            {
+              "hash": "d439aef15cd7376ad5b6a525f81810e1d4266255053ccfc4a9a96f2b7e5ba3ae",
+              "side": "left"
+            },
+            {
+              "hash": "3259d94e72dec7f3e57e7d4942c4aa15436c5fc4a216b794e7210a607fdbd04d",
+              "side": "right"
+            },
+            {
+              "hash": "bf37bfcb9f462d99d9e51a89b8c356c64b3dc3bd46837926fa0eb5f288c0b579",
+              "side": "right"
+            },
+            {
+              "hash": "ac97202f52ef073db864a040461fade8c6f094d417422aeee295b5c7b58d3c0e",
+              "side": "right"
+            },
+            {
+              "hash": "e8086e8a2d2a424ba5fa7b0712c03f9b394efdbc2bdfdbfaf63c95ed0cb320fc",
+              "side": "left"
+            }
+          ]
+        }
+      ],
+      "node_id": "service:8bf49ca9f4f516df",
+      "root": "db0076adf21a2342f4e32032985ce703663cda04c8d42e273cd61404e78f9c78",
+      "total_leaves": 76
+    },
+    {
+      "disclosed_leaves": 4,
+      "items": [
+        {
+          "payload": {
+            "derived": false,
+            "evidence": [
+              "rel-cicd-15a0e0581050386e"
+            ],
+            "kind": "edge",
+            "object": "service:aee6093c514bb3f9",
+            "predicate": "DEPLOYS",
+            "rules": [],
+            "subject": "pipeline:3f4254abdd3e079c",
+            "support": 0.812065
+          },
+          "proof": [
+            {
+              "hash": "b6ffaef59b2013e5d5155afb191e049b6efa4703c70781ae698fa1404e014dbd",
+              "side": "left"
+            },
+            {
+              "hash": "0a1b776b1c3ef511244da3cde262241ae96030c7ae3d49c7baa78a9bbb70fb73",
+              "side": "right"
+            },
+            {
+              "hash": "43296a1e7959356bc6e2a60137f4528d8310168851926680ae62e7c837249b57",
+              "side": "right"
+            },
+            {
+              "hash": "71c5b835d3d5bba54924ad32fb615116c9aa30e9a30be7d7a01657eb53a0a4bd",
+              "side": "left"
+            },
+            {
+              "hash": "c30f3f3888400a1b1074cdd394997565f37dab52fa93f2a71f48389af3a5319a",
+              "side": "left"
+            },
+            {
+              "hash": "0d12809e6531a35ffaeceb68f596b877bde517b507bb28e5a91e95ebc8d49aa9",
+              "side": "left"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "entity_type": "pipeline",
+            "evidence": [
+              "ent-cicd-baa7c890ae467ed4",
+              "ent-cicd-fdb284bd202478f2"
+            ],
+            "kind": "node",
+            "node_id": "pipeline:3f4254abdd3e079c",
+            "support": 0.962629
+          },
+          "proof": [
+            {
+              "hash": "cb1a19ea0ab35b69046e56bb86f642d0abc32d74e3f75c3e66aac3a98e80fb64",
+              "side": "right"
+            },
+            {
+              "hash": "32e17ebc6af2b6806ae898bb11178da3c5cb99e216e2ded34d8b24986c66bc5b",
+              "side": "right"
+            },
+            {
+              "hash": "d674b72bd8d63cac2fc9e2dd79915c96ab215f32e54626a484fc520d4baa8d62",
+              "side": "left"
+            },
+            {
+              "hash": "71c5b835d3d5bba54924ad32fb615116c9aa30e9a30be7d7a01657eb53a0a4bd",
+              "side": "left"
+            },
+            {
+              "hash": "c30f3f3888400a1b1074cdd394997565f37dab52fa93f2a71f48389af3a5319a",
+              "side": "left"
+            },
+            {
+              "hash": "0d12809e6531a35ffaeceb68f596b877bde517b507bb28e5a91e95ebc8d49aa9",
+              "side": "left"
+            },
+            {
+              "hash": "f2adfb2a185517b4be87e1e880ead002f182e1b05b515275edb1070a7bebaea1",
+              "side": "right"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "derived": false,
+            "evidence": [
+              "rel-cicd-cc376f9ef493d6d3"
+            ],
+            "kind": "edge",
+            "object": "service:64699a238609b7e4",
+            "predicate": "DEPLOYS",
+            "rules": [],
+            "subject": "pipeline:3f4254abdd3e079c",
+            "support": 0.810643
+          },
+          "proof": [
+            {
+              "hash": "e045cec59b523e76fcbedc39c0d16f8b17f50bb2e7d22d3daa818695a2db7475",
+              "side": "right"
+            },
+            {
+              "hash": "c3055d4ca2fcb2451b81c8205d84902f91a5246c360e656fdd2f2589ed03fd70",
+              "side": "right"
+            },
+            {
+              "hash": "88896afaa1476a0d2d021c51e8fc04e99f31779e4f77b9856e6e390e884428b1",
+              "side": "right"
+            },
+            {
+              "hash": "3259d94e72dec7f3e57e7d4942c4aa15436c5fc4a216b794e7210a607fdbd04d",
+              "side": "right"
+            },
+            {
+              "hash": "bf37bfcb9f462d99d9e51a89b8c356c64b3dc3bd46837926fa0eb5f288c0b579",
+              "side": "right"
+            },
+            {
+              "hash": "ac97202f52ef073db864a040461fade8c6f094d417422aeee295b5c7b58d3c0e",
+              "side": "right"
+            },
+            {
+              "hash": "e8086e8a2d2a424ba5fa7b0712c03f9b394efdbc2bdfdbfaf63c95ed0cb320fc",
+              "side": "left"
+            }
+          ]
+        },
+        {
+          "payload": {
+            "evidence_confidence": 0.622761,
+            "kind": "decision",
+            "lower_tier": 3,
+            "node_id": "pipeline:3f4254abdd3e079c",
+            "primary_rank": 5,
+            "upper_tier": 3,
+            "verify": true
+          },
+          "proof": [
+            {
+              "hash": "e69a18212fd958dd546142c2e1c11a61953d975305b777f203e52222087ae99b",
+              "side": "left"
+            },
+            {
+              "hash": "52ae23d7506fc5ce771b9fea129a47b150603806ec67be687df3198c52316b0c",
+              "side": "right"
+            },
+            {
+              "hash": "d439aef15cd7376ad5b6a525f81810e1d4266255053ccfc4a9a96f2b7e5ba3ae",
+              "side": "left"
+            },
+            {
+              "hash": "3259d94e72dec7f3e57e7d4942c4aa15436c5fc4a216b794e7210a607fdbd04d",
+              "side": "right"
+            },
+            {
+              "hash": "bf37bfcb9f462d99d9e51a89b8c356c64b3dc3bd46837926fa0eb5f288c0b579",
+              "side": "right"
+            },
+            {
+              "hash": "ac97202f52ef073db864a040461fade8c6f094d417422aeee295b5c7b58d3c0e",
+              "side": "right"
+            },
+            {
+              "hash": "e8086e8a2d2a424ba5fa7b0712c03f9b394efdbc2bdfdbfaf63c95ed0cb320fc",
+              "side": "left"
+            }
+          ]
+        }
+      ],
+      "node_id": "pipeline:3f4254abdd3e079c",
+      "root": "db0076adf21a2342f4e32032985ce703663cda04c8d42e273cd61404e78f9c78",
+      "total_leaves": 76
+    }
+  ],
+  "root": "db0076adf21a2342f4e32032985ce703663cda04c8d42e273cd61404e78f9c78",
+  "tamper_detected": true,
+  "tree_height": 7
+}

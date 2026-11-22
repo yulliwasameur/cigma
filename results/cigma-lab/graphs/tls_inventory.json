@@ -1,0 +1,247 @@
+{
+  "config_digest": "a2aded9e25e385c6ebf81fb864b98e3c0cd36cf41300e9833d01da4dd523e15c",
+  "edges": [
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-tls-63005410ec6d85f4"
+      ],
+      "object": "algorithm:a45686944b6dcc81",
+      "predicate": "USES",
+      "rules": [],
+      "subject": "certificate:25fa86944bd56ba5",
+      "support": 0.9223681599999999
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-tls-7c8e696797fc0ca0"
+      ],
+      "object": "algorithm:a45686944b6dcc81",
+      "predicate": "USES",
+      "rules": [],
+      "subject": "certificate:ed12dde96c0e764c",
+      "support": 0.9223681599999999
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-tls-9011f6af5d0dff9c"
+      ],
+      "object": "certificate:eb9aeb10dd59a703",
+      "predicate": "PRESENTS",
+      "rules": [],
+      "subject": "endpoint:45ac48e9c0bf6d8c",
+      "support": 0.9223681599999999
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-tls-95e220bd15f3eb14"
+      ],
+      "object": "certificate:ed12dde96c0e764c",
+      "predicate": "PRESENTS",
+      "rules": [],
+      "subject": "endpoint:eaec4004904adeb4",
+      "support": 0.9223681599999999
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-tls-ee77ad336d18513c"
+      ],
+      "object": "certificate:25fa86944bd56ba5",
+      "predicate": "PRESENTS",
+      "rules": [],
+      "subject": "endpoint:ecd078df2f21e773",
+      "support": 0.9223681599999999
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-tls-05b64fa6f4f6b6e2"
+      ],
+      "object": "certificate:0281fccc5525344b",
+      "predicate": "PRESENTS",
+      "rules": [],
+      "subject": "endpoint:fb522b400af47dee",
+      "support": 0.9223681599999999
+    }
+  ],
+  "method": "tls_inventory",
+  "nodes": [
+    {
+      "attributes": {},
+      "entity_type": "algorithm",
+      "identifiers": {
+        "algorithm_id": [
+          "RSA-2048"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "algorithm:a45686944b6dcc81",
+      "observation_ids": [
+        "ent-tls-7beb68e015fec407"
+      ],
+      "support": 0.9603999999999999
+    },
+    {
+      "attributes": {},
+      "entity_type": "certificate",
+      "identifiers": {
+        "certificate_fingerprint": [
+          "FPR-OT-ECDSA-004"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "certificate:0281fccc5525344b",
+      "observation_ids": [
+        "ent-tls-b3da9dfc7ae47258"
+      ],
+      "support": 0.9603999999999999
+    },
+    {
+      "attributes": {
+        "key_bits": 2048.0
+      },
+      "entity_type": "certificate",
+      "identifiers": {
+        "certificate_fingerprint": [
+          "FPR-PATIENT-RSA-002"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "certificate:25fa86944bd56ba5",
+      "observation_ids": [
+        "ent-tls-e114da75bbc4f404"
+      ],
+      "support": 0.9603999999999999
+    },
+    {
+      "attributes": {},
+      "entity_type": "certificate",
+      "identifiers": {
+        "certificate_fingerprint": [
+          "FPR-DB-RSA-003"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "certificate:eb9aeb10dd59a703",
+      "observation_ids": [
+        "ent-tls-d40c8d3f9578b723"
+      ],
+      "support": 0.9603999999999999
+    },
+    {
+      "attributes": {
+        "key_bits": 2048.0
+      },
+      "entity_type": "certificate",
+      "identifiers": {
+        "certificate_fingerprint": [
+          "FPR-EDGE-RSA-001"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "certificate:ed12dde96c0e764c",
+      "observation_ids": [
+        "ent-tls-844270040580e55b"
+      ],
+      "support": 0.9603999999999999
+    },
+    {
+      "attributes": {
+        "protocol": "TLS1.3"
+      },
+      "entity_type": "endpoint",
+      "identifiers": {
+        "endpoint_uri": [
+          "tls://db.internal:5432"
+        ],
+        "hostname": [
+          "db.internal"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "endpoint:45ac48e9c0bf6d8c",
+      "observation_ids": [
+        "ent-tls-1281a9e1fea28372"
+      ],
+      "support": 0.9603999999999999
+    },
+    {
+      "attributes": {
+        "protocol": "TLS1.3"
+      },
+      "entity_type": "endpoint",
+      "identifiers": {
+        "endpoint_uri": [
+          "tls://edge.local:443"
+        ],
+        "hostname": [
+          "edge.local"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "endpoint:eaec4004904adeb4",
+      "observation_ids": [
+        "ent-tls-87eb9d122e2516fb"
+      ],
+      "support": 0.9603999999999999
+    },
+    {
+      "attributes": {
+        "protocol": "TLS1.3"
+      },
+      "entity_type": "endpoint",
+      "identifiers": {
+        "endpoint_uri": [
+          "tls://patient.local:8443"
+        ],
+        "hostname": [
+          "patient.local"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "endpoint:ecd078df2f21e773",
+      "observation_ids": [
+        "ent-tls-c19db68ca63b49cd"
+      ],
+      "support": 0.9603999999999999
+    },
+    {
+      "attributes": {
+        "protocol": "TLS1.3"
+      },
+      "entity_type": "endpoint",
+      "identifiers": {
+        "endpoint_uri": [
+          "tls://ot-gateway.local:8883"
+        ],
+        "hostname": [
+          "ot-gateway.local"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "endpoint:fb522b400af47dee",
+      "observation_ids": [
+        "ent-tls-5270888212181a40"
+      ],
+      "support": 0.9603999999999999
+    }
+  ],
+  "observation_to_node": {
+    "ent-tls-1281a9e1fea28372": "endpoint:45ac48e9c0bf6d8c",
+    "ent-tls-5270888212181a40": "endpoint:fb522b400af47dee",
+    "ent-tls-7beb68e015fec407": "algorithm:a45686944b6dcc81",
+    "ent-tls-844270040580e55b": "certificate:ed12dde96c0e764c",
+    "ent-tls-87eb9d122e2516fb": "endpoint:eaec4004904adeb4",
+    "ent-tls-b3da9dfc7ae47258": "certificate:0281fccc5525344b",
+    "ent-tls-c19db68ca63b49cd": "endpoint:ecd078df2f21e773",
+    "ent-tls-d40c8d3f9578b723": "certificate:eb9aeb10dd59a703",
+    "ent-tls-e114da75bbc4f404": "certificate:25fa86944bd56ba5"
+  },
+  "quarantined_entity_ids": [],
+  "quarantined_relation_ids": [],
+  "rejected_relation_ids": []
+}

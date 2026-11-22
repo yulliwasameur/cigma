@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the paper."
+title: "CIGMA: Proof-Carrying Post-Quantum Migration from Signed Cryptographic Evidence — artifact"
+authors:
+  - { family-names: Ameur, given-names: Yulliwas, affiliation: "Efrei Research Lab; CEDRIC, Cnam" }
+  - { family-names: Lasledj, given-names: Insaf Imene, affiliation: "Efrei Research Lab" }
+  - { family-names: Bouzefrane, given-names: Samia, affiliation: "CEDRIC, Cnam" }
+  - { family-names: Banerjee, given-names: Soumya, affiliation: "CEDRIC, Cnam" }
+license: MIT
+version: icissp2027-camera-ready
+preferred-citation:
+  type: conference-paper
+  title: "CIGMA: Proof-Carrying Post-Quantum Migration from Signed Cryptographic Evidence"
+  conference: { name: "ICISSP 2027 — 13th International Conference on Information Systems Security and Privacy" }
+  year: 2027
+  publisher: { name: SCITEPRESS }

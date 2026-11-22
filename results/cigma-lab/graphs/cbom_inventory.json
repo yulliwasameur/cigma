@@ -1,0 +1,260 @@
+{
+  "config_digest": "a2aded9e25e385c6ebf81fb864b98e3c0cd36cf41300e9833d01da4dd523e15c",
+  "edges": [
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cbom-e371e47e630cdf3f"
+      ],
+      "object": "service:e3f13615bdcae934",
+      "predicate": "DEPENDS-ON",
+      "rules": [],
+      "subject": "service:26901bc611ef6219",
+      "support": 0.59969536
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cbom-50fdc373c0edaf41"
+      ],
+      "object": "service:e3f13615bdcae934:80dcaeea",
+      "predicate": "DEPENDS-ON",
+      "rules": [],
+      "subject": "service:26901bc611ef6219",
+      "support": 0.59969536
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cbom-8446334da9398c3d"
+      ],
+      "object": "software_component:6d24485621ac6f5b",
+      "predicate": "USES",
+      "rules": [],
+      "subject": "service:d13cdbd442beda48",
+      "support": 0.59969536
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cbom-b20f9c2d9d2a2ebe"
+      ],
+      "object": "service:d13cdbd442beda48",
+      "predicate": "DEPENDS-ON",
+      "rules": [],
+      "subject": "service:e3f13615bdcae934:80dcaeea",
+      "support": 0.59969536
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cbom-32236abff3691862"
+      ],
+      "object": "software_component:7678508770861287",
+      "predicate": "USES",
+      "rules": [],
+      "subject": "service:e3f13615bdcae934:80dcaeea",
+      "support": 0.59969536
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cbom-72a91b18a924373f"
+      ],
+      "object": "algorithm:5106153ee837762a",
+      "predicate": "USES",
+      "rules": [],
+      "subject": "software_component:6d24485621ac6f5b",
+      "support": 0.59969536
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cbom-a1e96128de687cc5"
+      ],
+      "object": "algorithm:a45686944b6dcc81",
+      "predicate": "USES",
+      "rules": [],
+      "subject": "software_component:7678508770861287",
+      "support": 0.59969536
+    }
+  ],
+  "method": "cbom_inventory",
+  "nodes": [
+    {
+      "attributes": {},
+      "entity_type": "algorithm",
+      "identifiers": {
+        "algorithm_id": [
+          "ECDSA-P256"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "algorithm:5106153ee837762a",
+      "observation_ids": [
+        "ent-cbom-7ac01b025c13685a"
+      ],
+      "support": 0.7744
+    },
+    {
+      "attributes": {
+        "family": "symmetric"
+      },
+      "entity_type": "algorithm",
+      "identifiers": {
+        "algorithm_id": [
+          "AES-256-GCM"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "algorithm:64a83d74655cec57",
+      "observation_ids": [
+        "ent-cbom-e99faf0ffdde240a"
+      ],
+      "support": 0.7744
+    },
+    {
+      "attributes": {},
+      "entity_type": "algorithm",
+      "identifiers": {
+        "algorithm_id": [
+          "RSA-2048"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "algorithm:a45686944b6dcc81",
+      "observation_ids": [
+        "ent-cbom-7a5f9060ff015e77"
+      ],
+      "support": 0.7744
+    },
+    {
+      "attributes": {},
+      "entity_type": "service",
+      "identifiers": {
+        "repository_path": [
+          "services/edge"
+        ],
+        "service_name": [
+          "edge-gateway"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "service:26901bc611ef6219",
+      "observation_ids": [
+        "ent-cbom-49706da085a85722"
+      ],
+      "support": 0.7744
+    },
+    {
+      "attributes": {
+        "language": "java"
+      },
+      "entity_type": "service",
+      "identifiers": {
+        "repository_path": [
+          "services/auth"
+        ],
+        "service_name": [
+          "auth-service"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "service:d13cdbd442beda48",
+      "observation_ids": [
+        "ent-cbom-3f6ec8cf1c97a720"
+      ],
+      "support": 0.7744
+    },
+    {
+      "attributes": {},
+      "entity_type": "service",
+      "identifiers": {
+        "repository_path": [
+          "deploy/patient"
+        ],
+        "service_name": [
+          "patient-api"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "service:e3f13615bdcae934",
+      "observation_ids": [
+        "ent-cbom-5f7d34dc4fb38bac"
+      ],
+      "support": 0.7744
+    },
+    {
+      "attributes": {
+        "language": "python"
+      },
+      "entity_type": "service",
+      "identifiers": {
+        "repository_path": [
+          "services/patient-api"
+        ],
+        "service_name": [
+          "patient-api"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "service:e3f13615bdcae934:80dcaeea",
+      "observation_ids": [
+        "ent-cbom-bf7555efcb590667"
+      ],
+      "support": 0.7744
+    },
+    {
+      "attributes": {
+        "name": "bcprov-jdk18on",
+        "version": "1.78"
+      },
+      "entity_type": "software_component",
+      "identifiers": {
+        "purl": [
+          "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "software_component:6d24485621ac6f5b",
+      "observation_ids": [
+        "ent-cbom-f75b23d03a1a6493"
+      ],
+      "support": 0.7744
+    },
+    {
+      "attributes": {
+        "name": "cryptography",
+        "version": "42.0.0"
+      },
+      "entity_type": "software_component",
+      "identifiers": {
+        "purl": [
+          "pkg:pypi/cryptography@42.0.0"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "software_component:7678508770861287",
+      "observation_ids": [
+        "ent-cbom-f4da2af1291274f1"
+      ],
+      "support": 0.7744
+    }
+  ],
+  "observation_to_node": {
+    "ent-cbom-3f6ec8cf1c97a720": "service:d13cdbd442beda48",
+    "ent-cbom-49706da085a85722": "service:26901bc611ef6219",
+    "ent-cbom-5f7d34dc4fb38bac": "service:e3f13615bdcae934",
+    "ent-cbom-7a5f9060ff015e77": "algorithm:a45686944b6dcc81",
+    "ent-cbom-7ac01b025c13685a": "algorithm:5106153ee837762a",
+    "ent-cbom-bf7555efcb590667": "service:e3f13615bdcae934:80dcaeea",
+    "ent-cbom-e99faf0ffdde240a": "algorithm:64a83d74655cec57",
+    "ent-cbom-f4da2af1291274f1": "software_component:7678508770861287",
+    "ent-cbom-f75b23d03a1a6493": "software_component:6d24485621ac6f5b"
+  },
+  "quarantined_entity_ids": [
+    "ent-cbom-412362153a7e9922"
+  ],
+  "quarantined_relation_ids": [],
+  "rejected_relation_ids": []
+}

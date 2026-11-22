@@ -1,0 +1,18 @@
+{
+  "assets": 18,
+  "kendall_tau_dual_clock_vs_primary": 1.0,
+  "params": {
+    "anchor_trust_years_default": 20.0,
+    "draws": 400,
+    "leaf_trust_years_default": 1.0,
+    "lognormal_sigma": 0.5,
+    "median_years_range": [
+      8.0,
+      25.0
+    ],
+    "migration_years_default": 1.0,
+    "seed": 20261121
+  },
+  "rank_stability_kendall_tau_mean": 1.0,
+  "tnfl_dominant_assets": 1
+}

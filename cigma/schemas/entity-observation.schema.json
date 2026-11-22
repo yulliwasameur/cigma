@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cigma.local/schemas/entity-observation.schema.json",
+  "title": "CIGMA entity observation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "observation_id", "source", "local_key", "entity_type", "identifiers",
+    "attributes", "quality", "collected_at", "locator", "evidence_excerpt",
+    "evidence_sha256"
+  ],
+  "properties": {
+    "observation_id": {"type": "string", "minLength": 1},
+    "source": {"enum": ["tls", "pki", "cbom", "cicd", "cmdb", "ot"]},
+    "local_key": {"type": "string", "minLength": 1},
+    "entity_type": {"enum": ["service", "endpoint", "certificate", "algorithm", "software_component", "pipeline", "data_class", "device"]},
+    "identifiers": {"type": "object", "additionalProperties": {"type": "string"}},
+    "attributes": {"type": "object"},
+    "quality": {"type": "number", "minimum": 0, "maximum": 1},
+    "collected_at": {"type": "string", "format": "date-time"},
+    "locator": {"type": "string", "minLength": 1},
+    "evidence_excerpt": {"type": "string"},
+    "evidence_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}

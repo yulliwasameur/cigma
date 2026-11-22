@@ -1,0 +1,14 @@
+{
+  "accuracy_manifest_included": false,
+  "factors": [
+    1,
+    10,
+    43,
+    100
+  ],
+  "host_dependent": true,
+  "notice": "Diagnostic only; not production throughput or cross-system evidence.",
+  "repetitions": 1,
+  "schema": "cigma-clean-room-scaling-v1",
+  "warmup": false
+}

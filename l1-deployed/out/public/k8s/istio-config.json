@@ -1,0 +1,102 @@
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "apiVersion": "networking.istio.io/v1",
+            "kind": "Gateway",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"networking.istio.io/v1\",\"kind\":\"Gateway\",\"metadata\":{\"annotations\":{},\"name\":\"shop-gw\",\"namespace\":\"default\"},\"spec\":{\"selector\":{\"istio\":\"ingressgateway\"},\"servers\":[{\"hosts\":[\"shop.cigma.local\"],\"port\":{\"name\":\"https\",\"number\":443,\"protocol\":\"HTTPS\"},\"tls\":{\"credentialName\":\"shop-tls\",\"mode\":\"SIMPLE\"}}]}}\n"
+                },
+                "creationTimestamp": "2026-11-22T05:24:24Z",
+                "generation": 1,
+                "name": "shop-gw",
+                "namespace": "default",
+                "resourceVersion": "1772",
+                "uid": "88b65528-5e2e-4b48-831a-d77d88a97dfa"
+            },
+            "spec": {
+                "selector": {
+                    "istio": "ingressgateway"
+                },
+                "servers": [
+                    {
+                        "hosts": [
+                            "shop.cigma.local"
+                        ],
+                        "port": {
+                            "name": "https",
+                            "number": 443,
+                            "protocol": "HTTPS"
+                        },
+                        "tls": {
+                            "credentialName": "shop-tls",
+                            "mode": "SIMPLE"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "networking.istio.io/v1",
+            "kind": "VirtualService",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"networking.istio.io/v1\",\"kind\":\"VirtualService\",\"metadata\":{\"annotations\":{},\"name\":\"shop-vs\",\"namespace\":\"default\"},\"spec\":{\"gateways\":[\"shop-gw\"],\"hosts\":[\"shop.cigma.local\"],\"http\":[{\"route\":[{\"destination\":{\"host\":\"frontend\",\"port\":{\"number\":80}}}]}]}}\n"
+                },
+                "creationTimestamp": "2026-11-22T05:24:24Z",
+                "generation": 1,
+                "name": "shop-vs",
+                "namespace": "default",
+                "resourceVersion": "1773",
+                "uid": "7c891673-5e7a-4f6a-9eff-c2e71e44e916"
+            },
+            "spec": {
+                "gateways": [
+                    "shop-gw"
+                ],
+                "hosts": [
+                    "shop.cigma.local"
+                ],
+                "http": [
+                    {
+                        "route": [
+                            {
+                                "destination": {
+                                    "host": "frontend",
+                                    "port": {
+                                        "number": 80
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "apiVersion": "security.istio.io/v1",
+            "kind": "PeerAuthentication",
+            "metadata": {
+                "annotations": {
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"security.istio.io/v1\",\"kind\":\"PeerAuthentication\",\"metadata\":{\"annotations\":{},\"name\":\"default\",\"namespace\":\"istio-system\"},\"spec\":{\"mtls\":{\"mode\":\"STRICT\"}}}\n"
+                },
+                "creationTimestamp": "2026-11-22T05:22:27Z",
+                "generation": 1,
+                "name": "default",
+                "namespace": "istio-system",
+                "resourceVersion": "890",
+                "uid": "eae4508c-66e5-4a16-90da-0916f7992b1b"
+            },
+            "spec": {
+                "mtls": {
+                    "mode": "STRICT"
+                }
+            }
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}

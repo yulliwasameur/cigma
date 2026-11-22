@@ -1,0 +1,31 @@
+{
+  "fixed": {
+    "cbom": 0.88,
+    "cicd": 0.91,
+    "cmdb": 0.94,
+    "ot": 0.86,
+    "pki": 0.97,
+    "tls": 0.98
+  },
+  "learned": {
+    "converged": true,
+    "dependent_pairs": [],
+    "item_counts": {
+      "cbom": 14,
+      "cicd": 5,
+      "cmdb": 18,
+      "ot": 5,
+      "pki": 15,
+      "tls": 15
+    },
+    "iterations": 16,
+    "reliabilities": {
+      "cbom": 0.603336,
+      "cicd": 0.666945,
+      "cmdb": 0.574645,
+      "ot": 0.601611,
+      "pki": 0.579789,
+      "tls": 0.582765
+    }
+  }
+}

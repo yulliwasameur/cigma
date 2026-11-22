@@ -1,0 +1,35 @@
+{
+  "fixture_id": "cigma-lab-clean-room-v1",
+  "oracle_tree_sha256": "ad0b023ad09054934d54465682ebb84f1ef8ee6bd06660d2fafdbd471d22f0d7",
+  "public_tree_sha256": "7388fd102ca6ee63c80bec18d55fc6138e68155293f953727157ec9ce58afc52",
+  "statistics": {
+    "critical_targets": 16,
+    "derived_truth_edges": 5,
+    "distractor_entity_observations": 2,
+    "entity_counts_by_source": {
+      "cbom": 10,
+      "cicd": 4,
+      "cmdb": 10,
+      "ot": 4,
+      "pki": 9,
+      "tls": 9
+    },
+    "entity_observations": 46,
+    "false_relation_observations": 2,
+    "fixture_id": "cigma-lab-clean-room-v1",
+    "mapped_entity_observations": 44,
+    "relation_counts_by_source": {
+      "cbom": 7,
+      "cicd": 2,
+      "cmdb": 8,
+      "ot": 3,
+      "pki": 8,
+      "tls": 6
+    },
+    "relation_observations": 34,
+    "true_relation_observations": 32,
+    "truth_edges": 34,
+    "truth_entities": 23,
+    "unique_observed_direct_truth_edges": 29
+  }
+}

@@ -1,0 +1,1115 @@
+{
+  "config_digest": "a2aded9e25e385c6ebf81fb864b98e3c0cd36cf41300e9833d01da4dd523e15c",
+  "edges": [
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-pki-8061faf504b864e0"
+      ],
+      "object": "certificate:1fc039343fc5941c",
+      "predicate": "ISSUED-BY",
+      "rules": [],
+      "subject": "certificate:0281fccc5525344b",
+      "support": 0.9376157716295007
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-pki-17e61f018c3e3ee6"
+      ],
+      "object": "algorithm:5106153ee837762a",
+      "predicate": "USES",
+      "rules": [],
+      "subject": "certificate:0281fccc5525344b",
+      "support": 0.9335121622703891
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-pki-60efe05cc5553da1"
+      ],
+      "object": "certificate:1fc039343fc5941c",
+      "predicate": "ISSUED-BY",
+      "rules": [],
+      "subject": "certificate:25fa86944bd56ba5",
+      "support": 0.9376157716295007
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-pki-7efefbb890a0a487",
+        "rel-tls-63005410ec6d85f4"
+      ],
+      "object": "algorithm:a45686944b6dcc81",
+      "predicate": "USES",
+      "rules": [],
+      "subject": "certificate:25fa86944bd56ba5",
+      "support": 0.9975229017458337
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-pki-2548100142633125"
+      ],
+      "object": "certificate:1fc039343fc5941c",
+      "predicate": "ISSUED-BY",
+      "rules": [],
+      "subject": "certificate:eb9aeb10dd59a703",
+      "support": 0.9376157716295007
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-pki-488f419eb3841e9c"
+      ],
+      "object": "algorithm:a45686944b6dcc81",
+      "predicate": "USES",
+      "rules": [],
+      "subject": "certificate:eb9aeb10dd59a703",
+      "support": 0.9395502001161489
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-pki-2df7c46e809d0f58"
+      ],
+      "object": "certificate:1fc039343fc5941c",
+      "predicate": "ISSUED-BY",
+      "rules": [],
+      "subject": "certificate:ed12dde96c0e764c",
+      "support": 0.9386073345414038
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-pki-d36171cd25a0463a",
+        "rel-tls-7c8e696797fc0ca0"
+      ],
+      "object": "algorithm:a45686944b6dcc81",
+      "predicate": "USES",
+      "rules": [],
+      "subject": "certificate:ed12dde96c0e764c",
+      "support": 0.9976239181461473
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-tls-9011f6af5d0dff9c"
+      ],
+      "object": "certificate:eb9aeb10dd59a703",
+      "predicate": "PRESENTS",
+      "rules": [],
+      "subject": "endpoint:45ac48e9c0bf6d8c",
+      "support": 0.9570620857801369
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-tls-95e220bd15f3eb14"
+      ],
+      "object": "certificate:ed12dde96c0e764c",
+      "predicate": "PRESENTS",
+      "rules": [],
+      "subject": "endpoint:eaec4004904adeb4",
+      "support": 0.9580742138792608
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-tls-ee77ad336d18513c"
+      ],
+      "object": "certificate:25fa86944bd56ba5",
+      "predicate": "PRESENTS",
+      "rules": [],
+      "subject": "endpoint:ecd078df2f21e773",
+      "support": 0.9570620857801369
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-tls-05b64fa6f4f6b6e2"
+      ],
+      "object": "certificate:0281fccc5525344b",
+      "predicate": "PRESENTS",
+      "rules": [],
+      "subject": "endpoint:fb522b400af47dee",
+      "support": 0.9543167364466978
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cicd-cc376f9ef493d6d3"
+      ],
+      "object": "service:64699a238609b7e4",
+      "predicate": "DEPLOYS",
+      "rules": [],
+      "subject": "pipeline:3f4254abdd3e079c",
+      "support": 0.8043095952770615
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cicd-15a0e0581050386e"
+      ],
+      "object": "service:aee6093c514bb3f9",
+      "predicate": "DEPLOYS",
+      "rules": [],
+      "subject": "pipeline:3f4254abdd3e079c",
+      "support": 0.8043095952770615
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cbom-e371e47e630cdf3f"
+      ],
+      "object": "service:e3f13615bdcae934",
+      "predicate": "DEPENDS-ON",
+      "rules": [],
+      "subject": "service:26901bc611ef6219",
+      "support": 0.59969536
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cbom-50fdc373c0edaf41"
+      ],
+      "object": "service:e3f13615bdcae934:80dcaeea",
+      "predicate": "DEPENDS-ON",
+      "rules": [],
+      "subject": "service:26901bc611ef6219",
+      "support": 0.59969536
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cmdb-4f334f990d1ecd1e"
+      ],
+      "object": "service:8bf49ca9f4f516df",
+      "predicate": "DEPENDS-ON",
+      "rules": [],
+      "subject": "service:64699a238609b7e4",
+      "support": 0.8222323675383288
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cmdb-ad462cecb74e6df6"
+      ],
+      "object": "data_class:f9ec1bb6d0ff5545",
+      "predicate": "PROCESSES",
+      "rules": [],
+      "subject": "service:64699a238609b7e4",
+      "support": 0.8222323675383288
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cmdb-5c59b32a614d1681"
+      ],
+      "object": "endpoint:45ac48e9c0bf6d8c",
+      "predicate": "HOSTS",
+      "rules": [],
+      "subject": "service:8bf49ca9f4f516df",
+      "support": 0.8286675254240443
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-ot-03d0bf62adf0eccf"
+      ],
+      "object": "device:6e61327514476949",
+      "predicate": "DEPENDS-ON",
+      "rules": [],
+      "subject": "service:add285b97fba309f",
+      "support": 0.6263422193029751
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-ot-b07fa723f2c3c1a2"
+      ],
+      "object": "endpoint:fb522b400af47dee",
+      "predicate": "HOSTS",
+      "rules": [],
+      "subject": "service:add285b97fba309f",
+      "support": 0.7245400936480451
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cmdb-d609e6cfcda37764"
+      ],
+      "object": "service:8bf49ca9f4f516df",
+      "predicate": "DEPENDS-ON",
+      "rules": [],
+      "subject": "service:aee6093c514bb3f9",
+      "support": 0.8222323675383288
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cmdb-853d9f13a1eb6940"
+      ],
+      "object": "endpoint:ecd078df2f21e773",
+      "predicate": "HOSTS",
+      "rules": [],
+      "subject": "service:aee6093c514bb3f9",
+      "support": 0.872696982307271
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cmdb-5315a083af158611"
+      ],
+      "object": "data_class:ef210f6ae7780873",
+      "predicate": "PROCESSES",
+      "rules": [],
+      "subject": "service:aee6093c514bb3f9",
+      "support": 0.8222323675383288
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cmdb-dd90b7873498dc02"
+      ],
+      "object": "endpoint:eaec4004904adeb4",
+      "predicate": "HOSTS",
+      "rules": [],
+      "subject": "service:b1dc446b9ada3acf",
+      "support": 0.8286675254240443
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cbom-8446334da9398c3d"
+      ],
+      "object": "software_component:6d24485621ac6f5b",
+      "predicate": "USES",
+      "rules": [],
+      "subject": "service:d13cdbd442beda48",
+      "support": 0.59969536
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cbom-b20f9c2d9d2a2ebe"
+      ],
+      "object": "service:d13cdbd442beda48",
+      "predicate": "DEPENDS-ON",
+      "rules": [],
+      "subject": "service:e3f13615bdcae934:80dcaeea",
+      "support": 0.59969536
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cbom-32236abff3691862"
+      ],
+      "object": "software_component:7678508770861287",
+      "predicate": "USES",
+      "rules": [],
+      "subject": "service:e3f13615bdcae934:80dcaeea",
+      "support": 0.59969536
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cbom-72a91b18a924373f"
+      ],
+      "object": "algorithm:5106153ee837762a",
+      "predicate": "USES",
+      "rules": [],
+      "subject": "software_component:6d24485621ac6f5b",
+      "support": 0.6769137357677656
+    },
+    {
+      "derived": false,
+      "evidence_ids": [
+        "rel-cbom-a1e96128de687cc5"
+      ],
+      "object": "algorithm:a45686944b6dcc81",
+      "predicate": "USES",
+      "rules": [],
+      "subject": "software_component:7678508770861287",
+      "support": 0.6812920726765637
+    }
+  ],
+  "method": "tfidf_cosine",
+  "nodes": [
+    {
+      "attributes": {},
+      "entity_type": "algorithm",
+      "identifiers": {
+        "algorithm_id": [
+          "ECDSA-P256"
+        ]
+      },
+      "merge_log": [
+        {
+          "decision": "merged",
+          "entity_type": "algorithm",
+          "key": "algorithm_id",
+          "left": "ent-cbom-7ac01b025c13685a",
+          "right": "ent-pki-92f1ddaf6c6128ff",
+          "rule": "strong_identifier",
+          "value": "ECDSA-P256"
+        }
+      ],
+      "node_id": "algorithm:5106153ee837762a",
+      "observation_ids": [
+        "ent-cbom-7ac01b025c13685a",
+        "ent-pki-92f1ddaf6c6128ff"
+      ],
+      "support": 0.9866670399999999
+    },
+    {
+      "attributes": {
+        "family": "symmetric"
+      },
+      "entity_type": "algorithm",
+      "identifiers": {
+        "algorithm_id": [
+          "AES-256-GCM"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "algorithm:64a83d74655cec57",
+      "observation_ids": [
+        "ent-cbom-e99faf0ffdde240a"
+      ],
+      "support": 0.7744
+    },
+    {
+      "attributes": {},
+      "entity_type": "algorithm",
+      "identifiers": {
+        "algorithm_id": [
+          "RSA-2048"
+        ]
+      },
+      "merge_log": [
+        {
+          "decision": "merged",
+          "entity_type": "algorithm",
+          "key": "algorithm_id",
+          "left": "ent-cbom-7a5f9060ff015e77",
+          "right": "ent-pki-74ef903a59a59789",
+          "rule": "strong_identifier",
+          "value": "RSA-2048"
+        },
+        {
+          "decision": "merged",
+          "entity_type": "algorithm",
+          "key": "algorithm_id",
+          "left": "ent-cbom-7a5f9060ff015e77",
+          "right": "ent-tls-7beb68e015fec407",
+          "rule": "strong_identifier",
+          "value": "RSA-2048"
+        }
+      ],
+      "node_id": "algorithm:a45686944b6dcc81",
+      "observation_ids": [
+        "ent-cbom-7a5f9060ff015e77",
+        "ent-pki-74ef903a59a59789",
+        "ent-tls-7beb68e015fec407"
+      ],
+      "support": 0.999472014784
+    },
+    {
+      "attributes": {
+        "key_bits": 256.0,
+        "subject": "CN=ot-gateway.local"
+      },
+      "entity_type": "certificate",
+      "identifiers": {
+        "certificate_fingerprint": [
+          "FPR-OT-ECDSA-004"
+        ]
+      },
+      "merge_log": [
+        {
+          "decision": "merged",
+          "entity_type": "certificate",
+          "key": "certificate_fingerprint",
+          "left": "ent-pki-6b69eb6e96f4696f",
+          "right": "ent-tls-b3da9dfc7ae47258",
+          "rule": "strong_identifier",
+          "value": "FPR-OT-ECDSA-004"
+        }
+      ],
+      "node_id": "certificate:0281fccc5525344b",
+      "observation_ids": [
+        "ent-pki-6b69eb6e96f4696f",
+        "ent-tls-b3da9dfc7ae47258"
+      ],
+      "support": 0.99765964
+    },
+    {
+      "attributes": {
+        "key_bits": 4096.0,
+        "subject": "CN=CIGMA Root"
+      },
+      "entity_type": "certificate",
+      "identifiers": {
+        "certificate_fingerprint": [
+          "FPR-CIGMA-ROOT-000"
+        ]
+      },
+      "merge_log": [
+        {
+          "decision": "merged",
+          "entity_type": "certificate",
+          "key": "certificate_fingerprint",
+          "left": "ent-pki-21741f712c2053d9",
+          "right": "ent-pki-b1b510b5680cf4b4",
+          "rule": "strong_identifier",
+          "value": "FPR-CIGMA-ROOT-000"
+        }
+      ],
+      "node_id": "certificate:1fc039343fc5941c",
+      "observation_ids": [
+        "ent-pki-21741f712c2053d9",
+        "ent-pki-b1b510b5680cf4b4"
+      ],
+      "support": 0.99536065
+    },
+    {
+      "attributes": {
+        "key_bits": 2048.0,
+        "subject": "CN=patient.local"
+      },
+      "entity_type": "certificate",
+      "identifiers": {
+        "certificate_fingerprint": [
+          "FPR-PATIENT-RSA-002"
+        ]
+      },
+      "merge_log": [
+        {
+          "decision": "merged",
+          "entity_type": "certificate",
+          "key": "certificate_fingerprint",
+          "left": "ent-pki-6e8ce8ac4f040428",
+          "right": "ent-tls-e114da75bbc4f404",
+          "rule": "strong_identifier",
+          "value": "FPR-PATIENT-RSA-002"
+        }
+      ],
+      "node_id": "certificate:25fa86944bd56ba5",
+      "observation_ids": [
+        "ent-pki-6e8ce8ac4f040428",
+        "ent-tls-e114da75bbc4f404"
+      ],
+      "support": 0.99765964
+    },
+    {
+      "attributes": {
+        "key_bits": 2048.0,
+        "subject": "CN=db.internal"
+      },
+      "entity_type": "certificate",
+      "identifiers": {
+        "certificate_fingerprint": [
+          "FPR-DB-RSA-003"
+        ]
+      },
+      "merge_log": [
+        {
+          "decision": "merged",
+          "entity_type": "certificate",
+          "key": "certificate_fingerprint",
+          "left": "ent-pki-85a64a4eb94d3d59",
+          "right": "ent-tls-d40c8d3f9578b723",
+          "rule": "strong_identifier",
+          "value": "FPR-DB-RSA-003"
+        }
+      ],
+      "node_id": "certificate:eb9aeb10dd59a703",
+      "observation_ids": [
+        "ent-pki-85a64a4eb94d3d59",
+        "ent-tls-d40c8d3f9578b723"
+      ],
+      "support": 0.99765964
+    },
+    {
+      "attributes": {
+        "key_bits": 2048.0,
+        "subject": "CN=edge.local"
+      },
+      "entity_type": "certificate",
+      "identifiers": {
+        "certificate_fingerprint": [
+          "FPR-EDGE-RSA-001"
+        ]
+      },
+      "merge_log": [
+        {
+          "decision": "merged",
+          "entity_type": "certificate",
+          "key": "certificate_fingerprint",
+          "left": "ent-pki-0bd6adb3b15badd8",
+          "right": "ent-pki-98706aac99190120",
+          "rule": "strong_identifier",
+          "value": "FPR-EDGE-RSA-001"
+        },
+        {
+          "decision": "merged",
+          "entity_type": "certificate",
+          "key": "certificate_fingerprint",
+          "left": "ent-pki-0bd6adb3b15badd8",
+          "right": "ent-tls-844270040580e55b",
+          "rule": "strong_identifier",
+          "value": "FPR-EDGE-RSA-001"
+        }
+      ],
+      "node_id": "certificate:ed12dde96c0e764c",
+      "observation_ids": [
+        "ent-pki-0bd6adb3b15badd8",
+        "ent-pki-98706aac99190120",
+        "ent-tls-844270040580e55b"
+      ],
+      "support": 0.999770878756
+    },
+    {
+      "attributes": {
+        "retention_years": 12.0
+      },
+      "entity_type": "data_class",
+      "identifiers": {
+        "data_name": [
+          "patient-records"
+        ],
+        "data_uid": [
+          "DATA-PATIENT-001"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "data_class:ef210f6ae7780873",
+      "observation_ids": [
+        "ent-cmdb-a7f46629c83e0082"
+      ],
+      "support": 0.8835999999999999
+    },
+    {
+      "attributes": {
+        "retention_years": 8.5
+      },
+      "entity_type": "data_class",
+      "identifiers": {
+        "data_name": [
+          "authentication-secrets"
+        ],
+        "data_uid": [
+          "DATA-AUTH-001"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "data_class:f9ec1bb6d0ff5545",
+      "observation_ids": [
+        "ent-cmdb-77da4eb5857871a9"
+      ],
+      "support": 0.8835999999999999
+    },
+    {
+      "attributes": {
+        "firmware_constraint": "annual-window",
+        "model": "PLC-X1"
+      },
+      "entity_type": "device",
+      "identifiers": {
+        "device_serial": [
+          "PLC-CIGMA-0001"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "device:6e61327514476949",
+      "observation_ids": [
+        "ent-ot-16bc390f96c0e5b3"
+      ],
+      "support": 0.7395999999999999
+    },
+    {
+      "attributes": {
+        "exposure": 0.2,
+        "protocol": "TLS1.3"
+      },
+      "entity_type": "endpoint",
+      "identifiers": {
+        "endpoint_uri": [
+          "tls://db.internal:5432"
+        ],
+        "hostname": [
+          "db.internal"
+        ]
+      },
+      "merge_log": [
+        {
+          "decision": "merged",
+          "entity_type": "endpoint",
+          "key": "endpoint_uri",
+          "left": "ent-cmdb-1fcb1ada0387854b",
+          "right": "ent-tls-1281a9e1fea28372",
+          "rule": "strong_identifier",
+          "value": "tls://db.internal:5432"
+        }
+      ],
+      "node_id": "endpoint:45ac48e9c0bf6d8c",
+      "observation_ids": [
+        "ent-cmdb-1fcb1ada0387854b",
+        "ent-tls-1281a9e1fea28372"
+      ],
+      "support": 0.99539056
+    },
+    {
+      "attributes": {
+        "exposure": 1.0,
+        "protocol": "TLS1.3"
+      },
+      "entity_type": "endpoint",
+      "identifiers": {
+        "endpoint_uri": [
+          "tls://edge.local:443"
+        ],
+        "hostname": [
+          "edge.local"
+        ]
+      },
+      "merge_log": [
+        {
+          "decision": "merged",
+          "entity_type": "endpoint",
+          "key": "endpoint_uri",
+          "left": "ent-cmdb-a6d9c2f197d1b0cb",
+          "right": "ent-tls-87eb9d122e2516fb",
+          "rule": "strong_identifier",
+          "value": "tls://edge.local:443"
+        }
+      ],
+      "node_id": "endpoint:eaec4004904adeb4",
+      "observation_ids": [
+        "ent-cmdb-a6d9c2f197d1b0cb",
+        "ent-tls-87eb9d122e2516fb"
+      ],
+      "support": 0.99539056
+    },
+    {
+      "attributes": {
+        "exposure": 0.2,
+        "protocol": "TLS1.3"
+      },
+      "entity_type": "endpoint",
+      "identifiers": {
+        "endpoint_uri": [
+          "tls://patient.local:8443"
+        ],
+        "hostname": [
+          "patient.local"
+        ]
+      },
+      "merge_log": [
+        {
+          "decision": "merged",
+          "entity_type": "endpoint",
+          "key": "endpoint_uri",
+          "left": "ent-cmdb-f6c861b86096ecbf",
+          "right": "ent-tls-c19db68ca63b49cd",
+          "rule": "strong_identifier",
+          "value": "tls://patient.local:8443"
+        }
+      ],
+      "node_id": "endpoint:ecd078df2f21e773",
+      "observation_ids": [
+        "ent-cmdb-f6c861b86096ecbf",
+        "ent-tls-c19db68ca63b49cd"
+      ],
+      "support": 0.99539056
+    },
+    {
+      "attributes": {
+        "protocol": "TLS1.3"
+      },
+      "entity_type": "endpoint",
+      "identifiers": {
+        "endpoint_uri": [
+          "tls://ot-gateway.local:8883"
+        ],
+        "hostname": [
+          "ot-gateway.local"
+        ]
+      },
+      "merge_log": [
+        {
+          "decision": "merged",
+          "entity_type": "endpoint",
+          "key": "endpoint_uri",
+          "left": "ent-ot-3c93392ef0531160",
+          "right": "ent-tls-5270888212181a40",
+          "rule": "strong_identifier",
+          "value": "tls://ot-gateway.local:8883"
+        }
+      ],
+      "node_id": "endpoint:fb522b400af47dee",
+      "observation_ids": [
+        "ent-ot-3c93392ef0531160",
+        "ent-tls-5270888212181a40"
+      ],
+      "support": 0.9896881599999999
+    },
+    {
+      "attributes": {
+        "platform": "github-actions"
+      },
+      "entity_type": "pipeline",
+      "identifiers": {
+        "pipeline_uid": [
+          "PIPE-CIGMA-CORE"
+        ]
+      },
+      "merge_log": [
+        {
+          "decision": "merged",
+          "entity_type": "pipeline",
+          "key": "pipeline_uid",
+          "left": "ent-cicd-baa7c890ae467ed4",
+          "right": "ent-cicd-fdb284bd202478f2",
+          "rule": "strong_identifier",
+          "value": "PIPE-CIGMA-CORE"
+        }
+      ],
+      "node_id": "pipeline:3f4254abdd3e079c",
+      "observation_ids": [
+        "ent-cicd-baa7c890ae467ed4",
+        "ent-cicd-fdb284bd202478f2"
+      ],
+      "support": 0.96262894
+    },
+    {
+      "attributes": {},
+      "entity_type": "service",
+      "identifiers": {
+        "repository_path": [
+          "services/edge"
+        ],
+        "service_name": [
+          "edge-gateway"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "service:26901bc611ef6219",
+      "observation_ids": [
+        "ent-cbom-49706da085a85722"
+      ],
+      "support": 0.7744
+    },
+    {
+      "attributes": {
+        "agility": 0.6,
+        "criticality": 0.9,
+        "data_lifetime_years": 8.5,
+        "exposure": 0.6,
+        "image": "ghcr.io/cigma/auth:1.0",
+        "migration_time_years": 1.0
+      },
+      "entity_type": "service",
+      "identifiers": {
+        "deployment_name": [
+          "auth-service-v1"
+        ],
+        "service_name": [
+          "auth-service"
+        ],
+        "service_uid": [
+          "SVC-AUTH-001"
+        ]
+      },
+      "merge_log": [
+        {
+          "decision": "merged",
+          "entity_type": "service",
+          "key": "service_uid",
+          "left": "ent-cicd-02d822d2791d460e",
+          "right": "ent-cmdb-b2bbf8db610d9d68",
+          "rule": "strong_identifier",
+          "value": "SVC-AUTH-001"
+        }
+      ],
+      "node_id": "service:64699a238609b7e4",
+      "observation_ids": [
+        "ent-cicd-02d822d2791d460e",
+        "ent-cmdb-b2bbf8db610d9d68"
+      ],
+      "support": 0.97999084
+    },
+    {
+      "attributes": {
+        "agility": 0.35,
+        "criticality": 0.98,
+        "data_lifetime_years": 12.0,
+        "exposure": 0.2,
+        "migration_time_years": 2.0
+      },
+      "entity_type": "service",
+      "identifiers": {
+        "service_name": [
+          "patient-database"
+        ],
+        "service_uid": [
+          "SVC-DB-001"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "service:8bf49ca9f4f516df",
+      "observation_ids": [
+        "ent-cmdb-739c3ba8971f2c5e"
+      ],
+      "support": 0.8835999999999999
+    },
+    {
+      "attributes": {
+        "agility": 0.2,
+        "criticality": 0.92,
+        "data_lifetime_years": 4.999999999999999,
+        "exposure": 0.3,
+        "migration_time_years": 3.0
+      },
+      "entity_type": "service",
+      "identifiers": {
+        "service_name": [
+          "ot-gateway"
+        ],
+        "service_uid": [
+          "SVC-OT-001"
+        ]
+      },
+      "merge_log": [
+        {
+          "decision": "merged",
+          "entity_type": "service",
+          "key": "service_uid",
+          "left": "ent-cmdb-b94927ae0412dfd2",
+          "right": "ent-ot-305f7a795204dacc",
+          "rule": "strong_identifier",
+          "value": "SVC-OT-001"
+        }
+      ],
+      "node_id": "service:add285b97fba309f",
+      "observation_ids": [
+        "ent-cmdb-b94927ae0412dfd2",
+        "ent-ot-305f7a795204dacc"
+      ],
+      "support": 0.96968944
+    },
+    {
+      "attributes": {
+        "agility": 0.45,
+        "criticality": 0.98,
+        "data_lifetime_years": 12.0,
+        "exposure": 0.2,
+        "image": "ghcr.io/cigma/patient:1.0",
+        "migration_time_years": 2.0
+      },
+      "entity_type": "service",
+      "identifiers": {
+        "deployment_name": [
+          "patient-api-v1"
+        ],
+        "service_name": [
+          "patient-api"
+        ],
+        "service_uid": [
+          "SVC-PATIENT-001"
+        ]
+      },
+      "merge_log": [
+        {
+          "decision": "merged",
+          "entity_type": "service",
+          "key": "service_uid",
+          "left": "ent-cicd-2d1563e6964476e5",
+          "right": "ent-cmdb-4d1f3c922123551a",
+          "rule": "strong_identifier",
+          "value": "SVC-PATIENT-001"
+        }
+      ],
+      "node_id": "service:aee6093c514bb3f9",
+      "observation_ids": [
+        "ent-cicd-2d1563e6964476e5",
+        "ent-cmdb-4d1f3c922123551a"
+      ],
+      "support": 0.97999084
+    },
+    {
+      "attributes": {
+        "agility": 0.75,
+        "criticality": 0.8,
+        "data_lifetime_years": 2.0,
+        "exposure": 1.0,
+        "migration_time_years": 1.5
+      },
+      "entity_type": "service",
+      "identifiers": {
+        "service_name": [
+          "edge-gateway"
+        ],
+        "service_uid": [
+          "SVC-EDGE-001"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "service:b1dc446b9ada3acf",
+      "observation_ids": [
+        "ent-cmdb-8ee608dec2b914d7"
+      ],
+      "support": 0.8835999999999999
+    },
+    {
+      "attributes": {
+        "language": "java"
+      },
+      "entity_type": "service",
+      "identifiers": {
+        "repository_path": [
+          "services/auth"
+        ],
+        "service_name": [
+          "auth-service"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "service:d13cdbd442beda48",
+      "observation_ids": [
+        "ent-cbom-3f6ec8cf1c97a720"
+      ],
+      "support": 0.7744
+    },
+    {
+      "attributes": {},
+      "entity_type": "service",
+      "identifiers": {
+        "repository_path": [
+          "deploy/patient"
+        ],
+        "service_name": [
+          "patient-api"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "service:e3f13615bdcae934",
+      "observation_ids": [
+        "ent-cbom-5f7d34dc4fb38bac"
+      ],
+      "support": 0.7744
+    },
+    {
+      "attributes": {
+        "language": "python"
+      },
+      "entity_type": "service",
+      "identifiers": {
+        "repository_path": [
+          "services/patient-api"
+        ],
+        "service_name": [
+          "patient-api"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "service:e3f13615bdcae934:80dcaeea",
+      "observation_ids": [
+        "ent-cbom-bf7555efcb590667"
+      ],
+      "support": 0.7744
+    },
+    {
+      "attributes": {
+        "name": "bcprov-jdk18on",
+        "version": "1.78"
+      },
+      "entity_type": "software_component",
+      "identifiers": {
+        "purl": [
+          "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "software_component:6d24485621ac6f5b",
+      "observation_ids": [
+        "ent-cbom-f75b23d03a1a6493"
+      ],
+      "support": 0.7744
+    },
+    {
+      "attributes": {
+        "name": "cryptography",
+        "version": "42.0.0"
+      },
+      "entity_type": "software_component",
+      "identifiers": {
+        "purl": [
+          "pkg:pypi/cryptography@42.0.0"
+        ]
+      },
+      "merge_log": [],
+      "node_id": "software_component:7678508770861287",
+      "observation_ids": [
+        "ent-cbom-f4da2af1291274f1"
+      ],
+      "support": 0.7744
+    }
+  ],
+  "observation_to_node": {
+    "ent-cbom-3f6ec8cf1c97a720": "service:d13cdbd442beda48",
+    "ent-cbom-49706da085a85722": "service:26901bc611ef6219",
+    "ent-cbom-5f7d34dc4fb38bac": "service:e3f13615bdcae934",
+    "ent-cbom-7a5f9060ff015e77": "algorithm:a45686944b6dcc81",
+    "ent-cbom-7ac01b025c13685a": "algorithm:5106153ee837762a",
+    "ent-cbom-bf7555efcb590667": "service:e3f13615bdcae934:80dcaeea",
+    "ent-cbom-e99faf0ffdde240a": "algorithm:64a83d74655cec57",
+    "ent-cbom-f4da2af1291274f1": "software_component:7678508770861287",
+    "ent-cbom-f75b23d03a1a6493": "software_component:6d24485621ac6f5b",
+    "ent-cicd-02d822d2791d460e": "service:64699a238609b7e4",
+    "ent-cicd-2d1563e6964476e5": "service:aee6093c514bb3f9",
+    "ent-cicd-baa7c890ae467ed4": "pipeline:3f4254abdd3e079c",
+    "ent-cicd-fdb284bd202478f2": "pipeline:3f4254abdd3e079c",
+    "ent-cmdb-1fcb1ada0387854b": "endpoint:45ac48e9c0bf6d8c",
+    "ent-cmdb-4d1f3c922123551a": "service:aee6093c514bb3f9",
+    "ent-cmdb-739c3ba8971f2c5e": "service:8bf49ca9f4f516df",
+    "ent-cmdb-77da4eb5857871a9": "data_class:f9ec1bb6d0ff5545",
+    "ent-cmdb-8ee608dec2b914d7": "service:b1dc446b9ada3acf",
+    "ent-cmdb-a6d9c2f197d1b0cb": "endpoint:eaec4004904adeb4",
+    "ent-cmdb-a7f46629c83e0082": "data_class:ef210f6ae7780873",
+    "ent-cmdb-b2bbf8db610d9d68": "service:64699a238609b7e4",
+    "ent-cmdb-b94927ae0412dfd2": "service:add285b97fba309f",
+    "ent-cmdb-f6c861b86096ecbf": "endpoint:ecd078df2f21e773",
+    "ent-ot-16bc390f96c0e5b3": "device:6e61327514476949",
+    "ent-ot-305f7a795204dacc": "service:add285b97fba309f",
+    "ent-ot-3c93392ef0531160": "endpoint:fb522b400af47dee",
+    "ent-pki-0bd6adb3b15badd8": "certificate:ed12dde96c0e764c",
+    "ent-pki-21741f712c2053d9": "certificate:1fc039343fc5941c",
+    "ent-pki-6b69eb6e96f4696f": "certificate:0281fccc5525344b",
+    "ent-pki-6e8ce8ac4f040428": "certificate:25fa86944bd56ba5",
+    "ent-pki-74ef903a59a59789": "algorithm:a45686944b6dcc81",
+    "ent-pki-85a64a4eb94d3d59": "certificate:eb9aeb10dd59a703",
+    "ent-pki-92f1ddaf6c6128ff": "algorithm:5106153ee837762a",
+    "ent-pki-98706aac99190120": "certificate:ed12dde96c0e764c",
+    "ent-pki-b1b510b5680cf4b4": "certificate:1fc039343fc5941c",
+    "ent-tls-1281a9e1fea28372": "endpoint:45ac48e9c0bf6d8c",
+    "ent-tls-5270888212181a40": "endpoint:fb522b400af47dee",
+    "ent-tls-7beb68e015fec407": "algorithm:a45686944b6dcc81",
+    "ent-tls-844270040580e55b": "certificate:ed12dde96c0e764c",
+    "ent-tls-87eb9d122e2516fb": "endpoint:eaec4004904adeb4",
+    "ent-tls-b3da9dfc7ae47258": "certificate:0281fccc5525344b",
+    "ent-tls-c19db68ca63b49cd": "endpoint:ecd078df2f21e773",
+    "ent-tls-d40c8d3f9578b723": "certificate:eb9aeb10dd59a703",
+    "ent-tls-e114da75bbc4f404": "certificate:25fa86944bd56ba5"
+  },
+  "quarantined_entity_ids": [
+    "ent-cbom-412362153a7e9922",
+    "ent-ot-ab76ca3689002aab"
+  ],
+  "quarantined_relation_ids": [
+    "rel-cmdb-4b8a0427fc724eda",
+    "rel-ot-8ec081193c221166"
+  ],
+  "rejected_relation_ids": []
+}

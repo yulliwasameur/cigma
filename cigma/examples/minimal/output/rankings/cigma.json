@@ -1,0 +1,119 @@
+[
+  {
+    "entity_type": "certificate",
+    "evidence_confidence": 0.7013841935189111,
+    "impact": {
+      "B": 0.0,
+      "C": 0.9,
+      "H": 0.5999999999999999,
+      "Q": 1.0,
+      "X": 1.0
+    },
+    "lower_impact": {
+      "B": 0.0,
+      "C": 0.9,
+      "H": 0.5999999999999999,
+      "Q": 1.0,
+      "X": 1.0
+    },
+    "lower_tier": 3,
+    "mean_factor_order_rank": 1,
+    "mean_factor_rank": 2.0,
+    "migration_feasibility": 0.6,
+    "node_id": "certificate:56d9cf99b85f9beb",
+    "pareto_front": 1,
+    "primary_rank": 1,
+    "service_contexts": [
+      "service:9b70115890fe5c56"
+    ],
+    "upper_impact": {
+      "B": 0.0,
+      "C": 0.9,
+      "H": 0.5999999999999999,
+      "Q": 1.0,
+      "X": 1.0
+    },
+    "upper_tier": 3,
+    "verify": true,
+    "weighted_rank": 1,
+    "weighted_score": 0.73
+  },
+  {
+    "entity_type": "endpoint",
+    "evidence_confidence": 0.7013841935189111,
+    "impact": {
+      "B": 0.0,
+      "C": 0.9,
+      "H": 0.5999999999999999,
+      "Q": 1.0,
+      "X": 1.0
+    },
+    "lower_impact": {
+      "B": 0.0,
+      "C": 0.9,
+      "H": 0.5999999999999999,
+      "Q": 1.0,
+      "X": 1.0
+    },
+    "lower_tier": 3,
+    "mean_factor_order_rank": 2,
+    "mean_factor_rank": 2.0,
+    "migration_feasibility": 0.6,
+    "node_id": "endpoint:1622d876134202c9",
+    "pareto_front": 1,
+    "primary_rank": 2,
+    "service_contexts": [
+      "service:9b70115890fe5c56"
+    ],
+    "upper_impact": {
+      "B": 0.0,
+      "C": 0.9,
+      "H": 0.5999999999999999,
+      "Q": 1.0,
+      "X": 1.0
+    },
+    "upper_tier": 3,
+    "verify": true,
+    "weighted_rank": 2,
+    "weighted_score": 0.73
+  },
+  {
+    "entity_type": "service",
+    "evidence_confidence": 0.7013841935189111,
+    "impact": {
+      "B": 0.0,
+      "C": 0.9,
+      "H": 0.5999999999999999,
+      "Q": 1.0,
+      "X": 1.0
+    },
+    "lower_impact": {
+      "B": 0.0,
+      "C": 0.9,
+      "H": 0.5999999999999999,
+      "Q": 1.0,
+      "X": 1.0
+    },
+    "lower_tier": 3,
+    "mean_factor_order_rank": 3,
+    "mean_factor_rank": 2.0,
+    "migration_feasibility": 0.6,
+    "node_id": "service:9b70115890fe5c56",
+    "pareto_front": 1,
+    "primary_rank": 3,
+    "service_contexts": [
+      "service:9b70115890fe5c56"
+    ],
+    "upper_impact": {
+      "B": 0.0,
+      "C": 0.9,
+      "H": 0.5999999999999999,
+      "Q": 1.0,
+      "X": 1.0
+    },
+    "upper_tier": 3,
+    "verify": true,
+    "weighted_rank": 3,
+    "weighted_score": 0.73
+  }
+]

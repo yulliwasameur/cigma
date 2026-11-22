@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+l1-deployed/src-online-boutique/
+l1-deployed/pki/*.key
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+# large or regenerable ZK build files (rebuilt by cigma/zk/setup.sh)
+cigma/zk/build/
+cigma/.hypothesis/
+**/.hypothesis/
+**/node_modules/
+# L1 sealed predictions stay private until the oracle is built (annotators must stay blind);
+# only the seal and the raw-collection hash are public
+l1-deployed/out/predictions/*
+!l1-deployed/out/predictions/seal.json
+!l1-deployed/out/predictions/RAW_COLLECTION.sha256
+l1-deployed/out/l1-sealed.tgz
+paper/*.fdb_latexmk
+paper/*.fls
+paper/main.pdf

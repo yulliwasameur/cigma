@@ -1,0 +1,1 @@
+{"status":"success","data":{"resultType":"vector","result":[{"metric":{"connection_security_policy":"unknown","destination_workload":"redis-cart","source_workload":"cartservice"},"value":[1795327247.396,"0"]},{"metric":{"connection_security_policy":"mutual_tls","destination_workload":"redis-cart","source_workload":"cartservice"},"value":[1795327247.396,"0"]}]}}

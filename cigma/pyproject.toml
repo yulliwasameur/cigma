@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cigma-reference"
+version = "0.1.0"
+description = "Clean-room reference implementation of CIGMA cryptographic dependency reconstruction"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  {name = "Yulliwas Ameur"},
+]
+dependencies = [
+  "numpy==2.3.5",
+  "pandas==2.2.3",
+  "scipy==1.17.0",
+  "scikit-learn==1.8.0",
+  "dilithium-py>=1.1",
+  "matplotlib==3.10.8",
+  "PyYAML==6.0.3",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Security :: Cryptography",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==9.0.2",
+  "build>=1.2.2",
+]
+
+[project.scripts]
+cigma = "cigma.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-markers"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

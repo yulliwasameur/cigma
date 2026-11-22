@@ -1,0 +1,5 @@
+order,movr,interop_break_steps,exposure_auc,missing_assets_appended,first_break_step,certified_on_predicted_graph
+primary,0.04,4.0,0.4083333333333333,2.0,1.0,False
+interop_aware,0.0,0.0,0.43928571428571433,2.0,0.0,True
+sharma2026,0.06999999999999999,7.0,0.45119047619047625,2.0,1.0,False
+optimal_cp_sat,0.0,0.0,0.425,2.0,0.0,True
