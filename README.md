@@ -1,5 +1,7 @@
 # CIGMA — artefact public (ICISSP 2027, papier n° 21)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24440038.svg)](https://doi.org/10.5281/zenodo.24440038)
+
 **CIGMA : Provenance-Preserving Cryptographic Dependency Reconstruction for Post-Quantum Network Migration.**
 Y. Ameur, I. I. Lasledj, S. Bouzefrane, S. Banerjee — ICISSP 2027, Valletta (Malte).
 

@@ -7,6 +7,8 @@ authors:
   - { family-names: Bouzefrane, given-names: Samia, affiliation: "CEDRIC, Cnam" }
   - { family-names: Banerjee, given-names: Soumya, affiliation: "CEDRIC, Cnam" }
 license: MIT
+doi: 10.5281/zenodo.24440038
+repository-code: https://github.com/yulliwasameur/cigma
 version: icissp2027-camera-ready
 preferred-citation:
   type: conference-paper
