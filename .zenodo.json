@@ -1,0 +1,14 @@
+{
+  "title": "CIGMA: Proof-Carrying Post-Quantum Migration from Signed Cryptographic Evidence (ICISSP 2027 artifact)",
+  "upload_type": "software",
+  "description": "Code, data, raw outputs, analysis scripts, benchmark (CIGMA-Bench) and LaTeX source of the ICISSP 2027 paper #21. Every number of the paper can be regenerated with the scripts of this archive.",
+  "creators": [
+    {"name": "Ameur, Yulliwas", "affiliation": "Efrei Research Lab; CEDRIC, Cnam"},
+    {"name": "Lasledj, Insaf Imene", "affiliation": "Efrei Research Lab"},
+    {"name": "Bouzefrane, Samia", "affiliation": "CEDRIC, Cnam"},
+    {"name": "Banerjee, Soumya", "affiliation": "CEDRIC, Cnam"}
+  ],
+  "license": "MIT",
+  "keywords": ["post-quantum migration", "cryptographic inventory", "CBOM", "provenance", "ML-DSA", "conformal prediction", "CP-SAT", "zero-knowledge"],
+  "version": "v1.0-icissp2027"
+}
